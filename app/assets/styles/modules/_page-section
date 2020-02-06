@@ -1,0 +1,19 @@
+.page-section {
+    font-size: 1.5rem;
+
+    &__pain {
+        background-color: grey;
+        color: white;
+    }
+
+    &__testimonials {
+        background-color: grey;
+        color: white;
+
+    h2 {
+        font-size: 1.8rem;
+        padding-top: 30px;
+    }
+      
+    }
+}

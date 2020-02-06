@@ -5,6 +5,7 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   color: #333;
+ 
 }
 
 img {
@@ -18,4 +19,12 @@ img {
 
 a {
   color: $mainOrange;
+}
+
+.quick-link {
+  font-size: 1rem;
+}
+
+p {
+  padding: 15px;
 }
