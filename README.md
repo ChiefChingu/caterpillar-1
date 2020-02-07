@@ -1,5 +1,5 @@
 # Caterpillar Alarm - Milestone 1
-Background
+## Background
 The oak processionary (Thaumetopoea processionea) is a moth whose caterpillars can be found in oak forests, where they feed on oak leaves, causing significant damage. They travel in nose-to-tail processions (hence their name). They are a human irritant because of their venomous setae (hairs), which can cause skin irritation and asthma.
 
 Western European countries see an increase of the oak processionary which causes more and more damage to trees and illness of humans.
