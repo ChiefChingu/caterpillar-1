@@ -6,9 +6,9 @@ Western European countries see an increase of the oak processionary which causes
 
 Caterpillar Alarm wants to help people by:
 
-*Warning them of infected trees in their area.
-*Giving the option to warn each other.
-*Informing them about prevention, symptoms and treatment.
+- Warning them of infected trees in their area.
+- Giving the option to warn each other.
+- Informing them about prevention, symptoms and treatment.
 
 In addition Caterpillar Alarm can help local governments by providing a platform for municipal service requests.
 
@@ -16,8 +16,8 @@ In addition Caterpillar Alarm can help local governments by providing a platform
 Out of scope for the first two milestone projects. In these projects fake data will be used. Project 1 will have hard coded fake data. Project 2 will use Google Maps API, but no user saved alerts.
 
 Caterpillar Alarm offers a map overview of infected trees in their area. Users can lookup alerts by:
-*Entering their zipcode
-*Scrolling the map manually
+- Entering their zipcode
+- Scrolling the map manually
 
 The map will show infected trees and healthy trees. When a user has an account it can receive notifications about alerts in his/her area (home area or location based area).
 
