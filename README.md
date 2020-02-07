@@ -26,10 +26,10 @@ Out of scope for the first two milestone projects. In these projects fake data w
 
 Users can add alerts to the map themselves. The alert can contain detailed information about the infection, whether a service request to the municipality is submitted, comments from other users, etc. Also, media can be included: pictures of the tree/infection.
 
-Site - Informing
+### Site - Informing
 Background information about the processionary with trusted sources is also part of Caterpillar Alarm.
 
-Site - local government assistance
+### Site - local government assistance
 Out of scope for the first two milestone projects.
 Idea is that users can make an alert which is automatically routed to the right authority, so they can take action and remove the processionary.
 
