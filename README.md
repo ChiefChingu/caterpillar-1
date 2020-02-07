@@ -12,7 +12,7 @@ Informing them about prevention, symptoms and treatment.
 
 In addition Caterpillar Alarm can help local governments by providing a platform for municipal service requests.
 
-Site - warning
+### Site - warning
 Out of scope for the first two milestone projects. In these projects fake data will be used. Project 1 will have hard coded fake data. Project 2 will use Google Maps API, but no user saved alerts.
 
 Caterpillar Alarm offers a map overview of infected trees in their area. Users can lookup alerts by:
@@ -21,7 +21,7 @@ Scrolling the map manually
 
 The map will show infected trees and healthy trees. When a user has an account it can receive notifications about alerts in his/her area (home area or location based area).
 
-Site - warn each other
+### Site - warn each other
 Out of scope for the first two milestone projects. In these projects fake data will be used. Project 1 will have hard coded fake data. Project 2 will use Google Maps API, but no user saved alerts.
 
 Users can add alerts to the map themselves. The alert can contain detailed information about the infection, whether a service request to the municipality is submitted, comments from other users, etc. Also, media can be included: pictures of the tree/infection.
