@@ -13,7 +13,7 @@ Caterpillar Alarm wants to help people by:
 In addition Caterpillar Alarm can help local governments by providing a platform for municipal service requests.
 
 ### Site - warning
-*Out of scope for the first two milestone projects. In these projects fake data will be used. Milestone project #1 will have hard coded fake data. Milestone project #2 will use Google Maps API, but no user saved alerts.
+*Out of scope for the first two milestone projects. In these projects fake data will be used. Milestone project #1 will have hard coded fake data. Milestone project #2 will use Google Maps API, but no user saved alerts.*
 
 Caterpillar Alarm offers a map overview of infected trees in their area. Users can lookup alerts by:
 - Entering their zipcode
@@ -22,7 +22,7 @@ Caterpillar Alarm offers a map overview of infected trees in their area. Users c
 The map will show infected trees and healthy trees. When a user has an account it can receive notifications about alerts in his/her area (home area or location based area).
 
 ### Site - warn each other
-*Out of scope for the first two milestone projects. In these projects fake data will be used. Milestone project #1 will have hard coded fake data. Milestone project #2 will use Google Maps API, but no user saved alerts.
+*Out of scope for the first two milestone projects. In these projects fake data will be used. Milestone project #1 will have hard coded fake data. Milestone project #2 will use Google Maps API, but no user saved alerts.*
 
 Users can add alerts to the map themselves. The alert can contain detailed information about the infection, whether a service request to the municipality is submitted, comments from other users, etc. Also, media can be included: pictures of the tree/infection.
 
@@ -30,6 +30,6 @@ Users can add alerts to the map themselves. The alert can contain detailed infor
 Background information about the processionary with trusted sources is also part of Caterpillar Alarm.
 
 ### Site - local government assistance
-*Out of scope for the first two milestone projects.
+*Out of scope for the first two milestone projects.*
 Idea is that users can make an alert which is automatically routed to the right authority, so they can take action and remove the processionary.
 
