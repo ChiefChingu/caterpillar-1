@@ -31,5 +31,6 @@ Background information about the processionary with trusted sources is also part
 
 ### Site - local government assistance
 *Out of scope for the first two milestone projects.*
+
 Idea is that users can make an alert which is automatically routed to the right authority, so they can take action and remove the processionary.
 
