@@ -1,8 +1,57 @@
 .site-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 1rem;
 
-}
-
-h1 {
+    nav {
+        align-self: center;
+        justify-self: center;
+    }
     
-    color: brown;
+
+    &__hamburger {
+        width: 40px;
+        
+    }
+
+    &__logo {
+        width: 220px;
+        
+    }
+
+    &__button {
+        height: 50%;
+        width: 75px;
+        padding: 0 15px;
+        color: white;
+        background-color: $mainOrange;
+        border-radius: 8px;
+        text-decoration: none;
+        border: none;
+        align-self: center;
+        justify-self: center;
+    }
+
+    /*tablet: TODO - check sizes for tablets */
+    @mixin atMedium {
+        &__logo {
+            width: 250px;
+            grid-column-start: 1;
+        }
+
+        &__hamburger {
+            display: none;
+        }
+
+        &__button {
+            display: none;
+        }
+    }
+
+    /*desktop: TODO - check sizes for large screens */
+    @mixin atLarge {
+        &__logo {
+            width: 400px;
+        }
+    }
 }
