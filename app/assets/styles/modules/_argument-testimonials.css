@@ -1,0 +1,18 @@
+.argument-testimonials p {
+    font-size: 1.1rem;
+    line-height: 1.4;
+    font-weight: 200;
+    padding: 0 30px;
+    font-style: italic;
+    
+}
+
+.argument-testimonials h2 {
+    color: $mainOrange;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+

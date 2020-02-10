@@ -4,7 +4,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #333;
+  color: #292f33;
   }
 
 
@@ -29,3 +29,31 @@ a {
 p {
   padding: 15px;
 }
+
+.textOrange {
+  color: $mainOrange;
+  font-weight: 400;
+}
+
+.textOrange--bold {
+  color: $mainOrange;
+  font-weight: 600;
+}
+
+.quick-link {
+  text-align: center;
+  margin-top: 10px;
+
+  @mixin atMedium {
+    text-align: left;
+  }
+}
+
+.quick-link a {
+  color: $mainGreen;
+}
+
+.image-wrap {
+  margin: 10px 0;
+}
+
