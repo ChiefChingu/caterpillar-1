@@ -15,8 +15,8 @@ As a user I want to:
 
 | Objective        | Action         | Result  | Remarks
 | ------------- |:-------------:| -----:| ------
-| Know that location x 
-is safe to go to.
-     | right-aligned | $1600 |
+| Know that location x is safe to go to. | Enter zipcode of location x. | A map with location x showing all alerts in the vicinity.
+ |Out of scope for this project. An image of a map with infections is included.
+
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
