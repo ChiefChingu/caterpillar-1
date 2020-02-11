@@ -1,36 +1,20 @@
 # Caterpillar Alarm - Milestone 1
-## Background
-The oak processionary (Thaumetopoea processionea) is a moth whose caterpillars can be found in oak forests, where they feed on oak leaves, causing significant damage. They travel in nose-to-tail processions (hence their name). They are a human irritant because of their venomous setae (hairs), which can cause skin irritation and asthma.
+Imagine the following scenarios.
 
-Western European countries see an increase of the oak processionary which causes more and more damage to trees and illness of humans.
+A. This Spring you go out for a picknick with your friends. Unfortunately, you are not able to finish your sandwich, because you got a severe rash and sore and weepy eyes. Is it a food allergy? Or hay fever? No, it is the oak processionary (link to Wiki). They are a human irritant because of their venomous setae (hairs), which can cause skin irritation and even asthma.
 
-Caterpillar Alarm wants to help people by:
+B. This Spring you go out for a picknick with your friends. You check the location of the picknick on CaterpillarAlarm.com to see if it is safe to be there this afternoon. You see that there are several alerts of infected trees. You change the plan and pick an area where it is safe to be. You enjoy your sandwich and friends and only have a hangover to worry about (the next day that is).
 
-- Warning them of infected trees in their area.
-- Giving the option to warn each other.
-- Informing them about prevention, symptoms and treatment.
+What is the most likely scenario? Chances are that it will be scenario A. Why? Because scenario B does not exist, yet…
 
-In addition Caterpillar Alarm can help local governments by providing a platform for municipal service requests.
+This milestone 1 project is the inception of Caterpillar.com, a place where you can help each other by adding alerts about infected trees.
 
-### Site - warning
-*Out of scope for the first two milestone projects. In these projects fake data will be used. Milestone project #1 will have hard coded fake data. Milestone project #2 will use Google Maps API, but no user saved alerts.*
+##UX
+###User stories
+As a user I want to:
 
-Caterpillar Alarm offers a map overview of infected trees in their area. Users can lookup alerts by:
-- Entering their zipcode
-- Scrolling the map manually
-
-The map will show infected trees and healthy trees. When a user has an account it can receive notifications about alerts in his/her area (home area or location based area).
-
-### Site - warn each other
-*Out of scope for the first two milestone projects. In these projects fake data will be used. Milestone project #1 will have hard coded fake data. Milestone project #2 will use Google Maps API, but no user saved alerts.*
-
-Users can add alerts to the map themselves. The alert can contain detailed information about the infection, whether a service request to the municipality is submitted, comments from other users, etc. Also, media can be included: pictures of the tree/infection.
-
-### Site - Informing
-Background information about the processionary with trusted sources is also part of Caterpillar Alarm.
-
-### Site - local government assistance
-*Out of scope for the first two milestone projects.*
-
-Idea is that users can make an alert which is automatically routed to the right authority, so they can take action and remove the processionary.
-
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
