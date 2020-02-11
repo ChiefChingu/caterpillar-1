@@ -35,23 +35,23 @@ User adds an alert by clicking on the + button. A new window opens and user can 
 
 Please note: the interactivity of this feature is out of scope for this project.
 
-Feature 3 - Subscribe to alerts (static and hard coded)
+#### Feature 3 - Subscribe to alerts (static and hard coded)
 User subscribes to future alerts by clicking on the join button at the top of the page (mobile view) or the CTA at the bottom of the page (desktop).
 
 Please note: the interactivity of this feature is out of scope for this project.
 
-Feature 4 - Know how to recognize infected trees
+#### Feature 4 - Know how to recognize infected trees
 User navigates to the section ‘How to recognize infected trees’. Either via the quick links in the content or via the menu at the top of the page.
 
-Feature 5 - Know what to do when you have an allergic reaction.
+#### Feature 5 - Know what to do when you have an allergic reaction.
 User navigates to the section ‘What are the symptoms’. Either via the quick links in the content or via the menu at the top of the page.
 
-Features left to implement
+### Features left to implement
 To make Feature 1, 2 and 3 fully functional, the following will be implemented over the next projects.
 
-Integration with Google Maps.
-Connection with databases.
-Account creation.
-‘Location based page rendering’: map will automatically show infections in current area of user.
+* Integration with Google Maps.
+* Connection with databases.
+* Account creation.
+* ‘Location based page rendering’: map will automatically show infections in current area of user.
 
 In addition, a connection to local government services is considered. They receive the alerts in their area and can decide to respond. The (lack of) progress of their response is visible in the alerts.
