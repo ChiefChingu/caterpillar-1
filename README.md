@@ -55,3 +55,11 @@ To make Feature 1, 2 and 3 fully functional, the following will be implemented o
 * ‘Location based page rendering’: map will automatically show infections in current area of user.
 
 In addition, a connection to local government services is considered. They receive the alerts in their area and can decide to respond. The (lack of) progress of their response is visible in the alerts.
+
+## Technologies Used
+
+
+## Testing
+
+
+## Deployment
