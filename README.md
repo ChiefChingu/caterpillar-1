@@ -9,8 +9,8 @@ What is the most likely scenario? Chances are that it will be scenario A. Why? B
 
 This milestone 1 project is the inception of Caterpillar.com, a place where you can help each other by adding alerts about infected trees.
 
-##UX
-###User stories
+## UX
+### User stories
 As a user I want to:
 
 | Tables        | Are           | Cool  |
