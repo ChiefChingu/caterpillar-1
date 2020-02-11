@@ -13,8 +13,8 @@ This milestone 1 project is **the inception of Caterpillar.com**, a place where 
 ### User stories
 As a user I want to:
 
-| Objective        | Action         | Result  |
-| ------------- |:-------------:| -----:|
+| Objective        | Action         | Result  | Remarks
+| ------------- |:-------------:| -----:| ------
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
