@@ -17,16 +17,32 @@
 
 .argument-testimonials__name {
     color: $mainGreen;
-    
+}
+
+
+
+@mixin atMedium {
+    .argument-testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+
+    &--header-grid-item{
+        grid-column: 1/3;
+        
+        }
+
+    }
 }
 
 @mixin atLarge {
     .argument-testimonials {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
 
     &--header-grid-item{
-        grid-column: 1/4;
+        grid-column: 1/5;
+        
         }
 
     &__name {

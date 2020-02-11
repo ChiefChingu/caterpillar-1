@@ -3,17 +3,21 @@
     line-height: 1.4;
     font-weight: 300;
     padding-bottom: 0px;
+    margin: 0;
+
 
    }
 
 
 @mixin atLarge {
     .argument-solution {
+        margin-top: 2rem;
         display: grid;
         grid-template-columns: 1fr 1fr;
+        
 
         &--grid-item {
-            align-self: center;
+            align-self: start;
             justify-self: center;
 
             

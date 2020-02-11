@@ -55,5 +55,15 @@ p {
 
 .image-wrap {
   margin: 10px 0;
+
+  @mixin atLarge {
+    margin: 0;
+    padding-top: 15px;
+  }
 }
 
+.quote {
+  color: $mainGreen;
+  font-weight: 900;
+  
+}

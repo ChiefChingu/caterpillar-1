@@ -1,12 +1,13 @@
 .argument-how {
-    display: grid;
+
+    
 
         p {
         font-size: 1.3rem;
         line-height: 1.4;
         font-weight: 300;
         padding-bottom: 0px;
-        padding-top: 0px;
+        margin: 0;
         } 
 }
 
@@ -15,9 +16,10 @@
     .argument-how {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 2rem;
         
         &--grid-item {
-            align-self: center;
+            align-self: start;
             justify-self: center;
             
             &-swap-1 {
