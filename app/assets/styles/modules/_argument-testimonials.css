@@ -15,4 +15,23 @@
     font-size: 2rem;
 }
 
+.argument-testimonials__name {
+    color: $mainGreen;
+    
+}
 
+@mixin atLarge {
+    .argument-testimonials {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    &--header-grid-item{
+        grid-column: 1/4;
+        }
+
+    &__name {
+        grid-row-start: 3;
+    }
+
+    }
+}

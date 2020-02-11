@@ -3,9 +3,21 @@
     line-height: 1.4;
     font-weight: 300;
     padding-bottom: 0px;
-     
+
+   }
+
+
+@mixin atLarge {
+    .argument-solution {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        &--grid-item {
+            align-self: center;
+            justify-self: center;
+
+            
+        }
+    }
 }
-
-
-
 

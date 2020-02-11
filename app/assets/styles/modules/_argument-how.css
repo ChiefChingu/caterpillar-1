@@ -1,8 +1,33 @@
-.argument-how p {
-    font-size: 1.3rem;
-    line-height: 1.4;
-    font-weight: 300;
-    padding-bottom: 0px;
-    padding-top: 0px;
-     
+.argument-how {
+    display: grid;
+
+        p {
+        font-size: 1.3rem;
+        line-height: 1.4;
+        font-weight: 300;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        } 
+}
+
+
+@mixin atLarge {
+    .argument-how {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+        &--grid-item {
+            align-self: center;
+            justify-self: center;
+            
+            &-swap-1 {
+                grid-column-start: 2;
+            }
+
+            &-swap-2 {
+                /* grid-column-start: 1; */
+                grid-row-start: 1;
+            }
+        }
+    }
 }

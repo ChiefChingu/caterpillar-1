@@ -3,4 +3,37 @@
     line-height: 1.4;
     text-align: center;
     padding-top: 10px;
+    padding-bottom: 0;
 }
+
+.argument-pain__cta-button {
+    display: none;;
+}
+
+.argument-pain__cta {
+    display: none;
+    padding-bottom: 20px;
+    
+
+    @mixin atMedium {
+        display: block;
+        font-size: 1.5rem;
+        line-height: 1.4;
+        text-align: center;
+        
+
+        &-button{
+            width: auto;
+            padding: 10px 55px;
+            color: white;
+            background-color: $mainOrange;
+            border-radius: 8px;
+            text-decoration: none;
+            border: none;
+            margin: 0 auto 15px auto;
+            display: block;
+        }
+    }
+}
+
+
