@@ -6,8 +6,14 @@
     padding-bottom: 0;
 }
 
-.argument-pain__cta-button {
-    display: none;;
+.argument-pain__responsive {
+    display: none;
+
+    @mixin atMedium {
+        display: block;
+        margin: 0 auto 15px auto;
+        
+    }
 }
 
 .argument-pain__cta {
@@ -21,18 +27,10 @@
         line-height: 1.4;
         text-align: center;
         
+        
+        
 
-        &-button{
-            width: auto;
-            padding: 10px 55px;
-            color: white;
-            background-color: $mainOrange;
-            border-radius: 8px;
-            text-decoration: none;
-            border: none;
-            margin: 0 auto 15px auto;
-            display: block;
-        }
+        
     }
 }
 

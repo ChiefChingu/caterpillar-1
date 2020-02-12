@@ -3,6 +3,12 @@
     grid-template-columns: repeat(3, 1fr);
     padding-top: 1rem;
 
+    a {
+        align-self: center;
+        justify-self: center;
+        
+    }
+
     @mixin atLarge{
         
         grid-template-columns: 1fr 1000px 1fr;
@@ -34,18 +40,19 @@
     }
 
     &__button {
-        height: 50%;
+        display: block;
         width: 75px;
-        padding: 0 15px;
-        color: white;
+        padding: 8px 15px;
         background-color: $mainOrange;
         border-radius: 8px;
         text-decoration: none;
         border: none;
         align-self: center;
         justify-self: center;
+        
     }
 
+    
     /*tablet: TODO - check sizes for tablets */
     @mixin atMedium {
 

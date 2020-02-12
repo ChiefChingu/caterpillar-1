@@ -24,6 +24,25 @@ a {
   color: $mainOrange;
 }
 
+.button{
+  width: 210px;
+  height: 38px;
+  color: white;
+  background-color: $mainOrange;
+  border-radius: 8px;
+  text-decoration: none;
+  border: none;
+  margin: 0 auto 65px auto;
+  display: block;
+}
+
+.button-link {
+  color: white;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
 
 p {
   padding: 15px;

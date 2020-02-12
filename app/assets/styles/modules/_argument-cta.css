@@ -1,15 +1,7 @@
 .argument-cta {
-   
-    &-button{
-        width: auto;
-        padding: 10px 55px;
-        color: white;
-        background-color: $mainOrange;
-        border-radius: 8px;
-        text-decoration: none;
-        border: none;
+   &-grid-item{
         margin: 0 auto 65px auto;
-        display: block;
+        
     }
 }
 

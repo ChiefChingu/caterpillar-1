@@ -6,6 +6,7 @@
   <title>Caterpillar Alarm</title>
   <meta name="keywords" content="template">
   <meta name="description" content="Template for small projects. Ready to go!">
+  <script src="https://kit.fontawesome.com/aca8a0f519.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <header class="site-header">
@@ -22,11 +23,11 @@
         <li>Symptoms</li>
       </ul>
     </nav>
-    <button class="site-header__button">
-      join
-    </button>
+    <button class="site-header__button"><a class="button-link" href="#popup1">join</a></button>
+    
   </header> 
   <main>
+    
     <large-hero>
       <div class="large-hero__location-bar">
         <div class="large-hero__location-bar-text">Find <strong>alerts</strong> near you</div>
@@ -42,8 +43,10 @@
         <!-- TODO: add more arguments backed by facts -->
         <div class="argument-pain__cta">Never miss alerts in your neighborhood!
         </div>
-        <button class="argument-pain__cta-button">
+        <button class="button argument-pain__responsive">
+          <a class="button-link" href="#popup1">
           keep me save
+          </a>
         </button>
       </section>
       <section class="argument-solution">
@@ -52,10 +55,8 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
           </p>
           <div class="quick-link"><a href="#">What are the symptoms of contact?</a></div>
-        </div>
-        <!-- TODO: make the height match the other column in grid mode-->
-        
-          <img class="image-wrap argument-solution--grid-item" src="assets/images/caterpillar-large.jpg">
+        </div>        
+        <img class="image-wrap argument-solution--grid-item" src="assets/images/caterpillar-large.jpg">
       
       </section>
       <section class="argument-how">
@@ -75,7 +76,7 @@
         <!-- TODO: add pseudo class to create colored quotations -->
         <div class="argument-testimonials__story">
           <p><span class="quote">"</span>Although there are no alerts now, I find the idea superb! We can inform each other about the insects and hopefully prevent injuries.<span class="quote">”</span></p>
-          <p class="argument-testimonials__name">Karin, Zwolle</p></<p>
+          <p class="argument-testimonials__name">Karin, Zwolle</p>
         </div>
         <div class="argument-testimonials__story">
           <p><span class="quote">"</span>What a smart project! I took a bicycle ride yesterday to map all the oaks in my area.<span class="quote">"</span></p>
@@ -93,11 +94,15 @@
       <section class="argument-cta">
         <h2>Help each other and <br><span class="textOrange--bold">never miss alerts</span><br>
           in your area!
-          </h2>
-          <button class="argument-cta-button">
+        </h2>
+          <button class="button argument-cta-button-grid-item">
+            <a class="button-link" href="#popup1">
             keep me save
+            </a>          
           </button>
       </section>
+
+
     <!-- end wrapper -->
     </section>
       <footer class="site-footer">
@@ -105,9 +110,11 @@
           <!-- TODO: add FontAwesome icons -->
           <ul>
             <li>Connect with us:</li>
-            <li>FB</li>
-            <li>Twitter</li>
-            <li>Insta</li>
+            <li><a href="#" target="blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://twitter.com/rupsenalarm" target="blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#" target="blank"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="#" target="blank"><i class="fab fa-youtube"></i></a></li>
+           
             
           </ul>
         </div>
@@ -124,3 +131,14 @@
     </footer>
   </body>
 </html>
+
+<!-- hidden code for the popup -->
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Out of scope</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="popup-content">
+			This functionality is out of scope for this project.
+		</div>
+	</div>
+</div>
