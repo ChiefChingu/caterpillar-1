@@ -10,7 +10,20 @@
 </head>
 <body>
   <header class="site-header">
-    <nav class="site-header__nav--small-screen"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png">
+    <div id="popup2" class="overlay-mm">
+      <div class="popup-mm">
+        <a class="close-mm" href="#">&times;</a>
+        <div class="popup-content-mm">
+             <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/what-is-it.html" >What is it</a></li>
+              <li><a href="/how-to-recognize.html">How to recognize</a></li>
+              <li><a href="/symptoms.html" id="active-page">Symptoms</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <nav class="site-header__nav--small-screen"><a class="button-link" href="#popup2"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png"></a>
     </nav>
     <div class="site-header__logo">
       <a href="/"><img src="assets/images/caterpillar-logo.png"></a>
