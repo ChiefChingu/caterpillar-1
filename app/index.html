@@ -10,10 +10,23 @@
 </head>
 <body>
   <header class="site-header">
-    <nav class="site-header__nav--small-screen"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png">
+    <div id="popup2" class="overlay-mm">
+      <div class="popup-mm">
+        <a class="close-mm" href="#">&times;</a>
+        <div class="popup-content-mm">
+             <ul>
+              <li><a href="/" id="active-page">Home</a></li>
+              <li><a href="/what-is-it.html" >What is it</a></li>
+              <li><a href="/how-to-recognize.html">How to recognize</a></li>
+              <li><a href="/symptoms.html">Symptoms</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <nav class="site-header__nav--small-screen"><a class="button-link" href="#popup2"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png"></a>
     </nav>
     <div class="site-header__logo">
-      <img src="assets/images/caterpillar-logo.png">
+      <a href="/"><img src="assets/images/caterpillar-logo.png"></a>
     </div>
     <nav class="site-header__nav site-header__nav--large-screen">
       <ul>
@@ -21,13 +34,12 @@
         <li><a href="/what-is-it.html" >What is it</a></li>
         <li><a href="/how-to-recognize.html">How to recognize</a></li>
         <li><a href="/symptoms.html">Symptoms</a></li>
+        <li><a href="/hamburger.html">Hamburger</a></li>
       </ul>
     </nav>
-    <button class="site-header__button"><a class="button-link" href="#popup1">join</a></button>
-    
+    <button class="site-header__button"><a class="button-link" href="#popup1">join</a></button> 
   </header> 
   <main>
-    
     <section class="large-hero">
       <div class="large-hero__location-bar">
         <div class="large-hero__location-bar-text">Find <strong>alerts</strong> near you</div>
@@ -43,9 +55,6 @@
           <source media="(max-width: 1800px)" srcset="assets/images/hero-image-w1800.png">
           <img class="large-hero__image" src="assets/images/hero-image-desktop.png" alt="map">
         </picture>
-
-
-
     </section>
     <section class="wrapper">
       <section class="argument-pain">
@@ -64,24 +73,18 @@
           <p><span class="textOrange">Know where to go</span> and where to stay away! Together we can map where oaks are infected and where not. You can look for safe spots to let your children play, walk your dog, do your groceries, etc.</p>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
           </p>
-          <div class="quick-link"><a href="#">What are the symptoms of contact?</a></div>
+          <div class="quick-link"><a href="symptoms.html">What are the symptoms of contact?</a></div>
         </div>        
         <img class="image-wrap argument-solution--grid-item" src="assets/images/caterpillar-large-w551.jpg">
-
-
-      
       </section>
       <section class="argument-how">
         <div class="argument-how--grid-item argument-how--grid-item-swap-1">
-          <p><span class="textOrange">Add an alert</span> by tapping on the map or using the + button. You can add infected trees and healthy trees.</p>
-          <!-- TODO: add image of add alert window and make the height match the other column in grid mode-->
-          
+          <p><span class="textOrange">Add an alert</span> by tapping on the map or using the + button. You can add infected trees and healthy trees.</p>       
           <p>If you alerted the community services you can also specify this in your map entry.</p>
           <p>If you see an alert, but do not see the infection, you can flag that alert as possibly incorrect. If multiple people do this, the alert will be removed.
-          </p><div class="quick-link"><a href="#">How to recognize infected trees</a></div>
+          </p><div class="quick-link"><a href="how-to-recognize.html">How to recognize infected trees</a></div>
         </div>
         <img class="image-wrap argument-how--grid-item argument-how--grid-item-swap-2" src="assets/images/add-alert.png">
-        
       </section>
       <section class="argument-testimonials">
         <h2 class="argument-testimonials--header-grid-item">What others say</h2>
@@ -112,21 +115,16 @@
             </a>          
           </button>
       </section>
-
-
     <!-- end wrapper -->
     </section>
       <footer class="site-footer">
         <div class="site-footer__social">
-          <!-- TODO: add FontAwesome icons -->
           <ul>
             <li>Connect with us:</li>
             <li><a href="#" target="blank"><i class="fab fa-facebook-square"></i></a></li>
             <li><a href="https://twitter.com/rupsenalarm" target="blank"><i class="fab fa-twitter-square"></i></a></li>
             <li><a href="#" target="blank"><i class="fab fa-instagram-square"></i></a></li>
             <li><a href="#" target="blank"><i class="fab fa-youtube"></i></a></li>
-           
-            
           </ul>
         </div>
         <nav class="site-footer__nav">
@@ -140,10 +138,7 @@
         </nav>
         <div class="site-footer__copyright">2020 Copyright Caterpillar Alarm</div>
     </footer>
-  </body>
-</html>
-
-<!-- hidden code for the popup -->
+    <!-- hidden code for the popup -->
 <div id="popup1" class="overlay">
 	<div class="popup">
 		<h2>Out of scope</h2>
@@ -153,3 +148,6 @@
 		</div>
 	</div>
 </div>
+  </body>
+</html>
+

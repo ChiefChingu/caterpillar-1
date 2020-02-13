@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <title>Caterpillar Alarm</title>
+  <meta name="keywords" content="template">
+  <meta name="description" content="Template for small projects. Ready to go!">
+  <script src="https://kit.fontawesome.com/aca8a0f519.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="site-header"><!-- hidden code for the popup for mobile menu-->
+    <div id="popup2" class="overlay-mm">
+      <div class="popup-mm">
+        <a class="close-mm" href="#">&times;</a>
+        <div class="popup-content-mm">
+             <ul>
+              <li><a href="/" id="active-page">Home</a></li>
+              <li><a href="/what-is-it.html" >What is it</a></li>
+              <li><a href="/how-to-recognize.html">How to recognize</a></li>
+              <li><a href="/symptoms.html">Symptoms</a></li>
+            </ul>
+          
+      
+        </div>
+      </div>
+    </div>
+    <nav class="site-header__nav--small-screen"><a class="button-link" href="#popup2"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png"></a>
+    </nav>
+    <div class="site-header__logo">
+      <a href="/"><img src="assets/images/caterpillar-logo.png"></a>
+    </div>
+    <nav class="site-header__nav site-header__nav--large-screen">
+      <ul>
+        <li><a href="/" id="active-page">Home</a></li>
+        <li><a href="/what-is-it.html" >What is it</a></li>
+        <li><a href="/how-to-recognize.html">How to recognize</a></li>
+        <li><a href="/symptoms.html">Symptoms</a></li>
+      </ul>
+    </nav>
+
+  
+    <button class="site-header__button"><a class="button-link" href="#popup1">join</a></button> 
+  </header> 
+  <main>
+    <section class="large-hero">
+      <div class="large-hero__location-bar">
+        <div class="large-hero__location-bar-text">Find <strong>alerts</strong> near you</div>
+        <div class="large-hero__location-bar-input-field">
+          <input class="large-hero__location-bar-input-field--field" type="text" id="zipcode" name="zipcode" placeholder="your zipcode e.g 12345">
+        </div>
+      </div>
+        <picture>
+          <source media="(max-width: 500px)" srcset="assets/images/hero-image-mobile.png">
+          <source media="(max-width: 650px)" srcset="assets/images/hero-image-tablet-portrait.png">
+          <source media="(max-width: 1000px)" srcset="assets/images/hero-image-w1000.png">
+          <source media="(max-width: 1500px)" srcset="assets/images/hero-image-w1500.png">
+          <source media="(max-width: 1800px)" srcset="assets/images/hero-image-w1800.png">
+          <img class="large-hero__image" src="assets/images/hero-image-desktop.png" alt="map">
+        </picture>
+    </section>
+    
+    
+    </section>
+      <footer class="site-footer">
+        <div class="site-footer__social">
+          <ul>
+            <li>Connect with us:</li>
+            <li><a href="#" target="blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://twitter.com/rupsenalarm" target="blank"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#" target="blank"><i class="fab fa-instagram-square"></i></a></li>
+            <li><a href="#" target="blank"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+        <nav class="site-footer__nav">
+          <ul>
+            <li>Contact us</li>
+            <li>Privacy Policy</li>
+            <li>Cookie Policy</li>
+            <li>About</li>
+            <li>Support</li>
+          </ul>
+        </nav>
+        <div class="site-footer__copyright">2020 Copyright Caterpillar Alarm</div>
+    </footer>
+<!-- hidden code for the popup for buttons-->
+<div id="popup1" class="overlay">
+	<div class="popup">
+		<h2>Out of scope</h2>
+		<a class="close" href="#">&times;</a>
+		<div class="popup-content">
+			This functionality is out of scope for this project.
+		</div>
+	</div>
+</div>
+
+  </body>
+</html>
+
