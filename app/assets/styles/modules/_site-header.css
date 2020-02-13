@@ -62,9 +62,11 @@
             color: $mainGreen;
         }
         
-        a:active {
-            color: $mainOrange;
-        }
+        
+    }
+
+    #active-page {
+        color: $mainOrange;
     }
     
     /*tablet: TODO - check sizes for tablets */

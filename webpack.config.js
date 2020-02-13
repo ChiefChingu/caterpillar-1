@@ -54,7 +54,8 @@ if (currentTask == 'dev') {
   }
   config.devServer = {
     before: function(app, server) {
-      server._watch('./app/**/*.html')
+      server._watch('./app/*.html') //remove the /**/ from the path
+      // server._watch('./app/**/*.html') original line of code with only index.html
     },
     contentBase: path.join(__dirname, 'app'),
     hot: true,
