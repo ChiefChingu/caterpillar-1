@@ -1,5 +1,18 @@
 .large-hero {
 
+    h1 {
+        font-size: 4rem;
+        color: $mainOrange;
+        text-align: center;
+        margin: 2rem 0 1rem 0;
+
+        @mixin atLarge {
+            margin: 2rem 0 2rem 0;
+            font-size: 5rem;
+        }
+
+    }
+
     &__image {
         width: 100%;
     }

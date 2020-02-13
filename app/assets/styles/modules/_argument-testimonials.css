@@ -2,8 +2,12 @@
     font-size: 1.1rem;
     line-height: 1.4;
     font-weight: 200;
-    padding: 0 30px;
+    padding: 0 50px;
     font-style: italic;
+
+    @mixin atLarge {
+        padding: 0 25px;
+    }
     
 }
 
@@ -19,9 +23,7 @@
     color: $mainGreen;
 }
 
-
-
-@mixin atMedium {
+@mixin atSmallMedium {
     .argument-testimonials {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -40,6 +42,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
 
+    
+    
+
     &--header-grid-item{
         grid-column: 1/5;
         
@@ -50,4 +55,5 @@
     }
 
     }
+
 }

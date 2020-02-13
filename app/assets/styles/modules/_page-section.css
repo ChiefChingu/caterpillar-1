@@ -1,19 +1,42 @@
-.page-section {
-    font-size: 1.5rem;
+.page-section p {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 300;
+    padding-bottom: 0px;
+    margin: 0;
 
-    &__pain {
-        background-color: grey;
-        color: white;
+    @mixin atMedium {
+        padding: 15px 0;
     }
 
-    &__testimonials {
-        background-color: grey;
-        color: white;
-
-    h2 {
-        font-size: 1.8rem;
-        padding-top: 30px;
+    @mixin atLarge {
+        padding-left: 0;
+        
     }
-      
+
+
+   }
+
+
+@mixin atLarge {
+    .page-section {
+        margin-top: 1rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15px;
+               
+
+        &--grid-item {
+            align-self: start;
+            justify-self: center;
+        }
+
+        &--grid-item-one-column {  
+            grid-column: 1/3;
+            align-self: start;
+            justify-self: center;
+        }
+
+        
     }
 }
