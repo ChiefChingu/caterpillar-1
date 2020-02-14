@@ -117,25 +117,58 @@
   </footer>
 <!-- Code for contact popup -->
 <div id="contact" class="overlay-contact">
-<div class="popup-contact">
-  <div class="popup-contact__header-bar">
-    <h2>Contact Us</h2>
-    <a class="popup-contact__header-bar-close-contact" href="#contact-focus">&times;</a>
-  </div>      
-  <div class="popup-content-contact">
-      <p class="popup-content-contact__grid-item">We love to hear your thoughts! Please leave your questions, remarks or concerns below.</p>
-      <form action="#contact-confirmation">
-        <label for="fname">What is your name? <sup>optional</sup></label>     
-        <input type="text" id="fname" name="fname">  
-        <label for="email">On what email address can we send our response? <sup>mandatory</sup></label>     
-        <input type="email" id="email" name="email" required><br>
-        <label for="textarea">Tell us what's on your mind <sup>mandatory</sup></label>
-        <textarea required></textarea>
-        <button class="popup-button">Send</button>
-        <p class="disclaimer">Your email address is safe with us!</p>
-      </form>
+  <div class="popup-contact">
+    <div class="popup-contact__header-bar">
+      <h2>Contact Us</h2>
+      <a class="popup-contact__header-bar-close-contact" href="#contact-focus">&times;</a>
+    </div>      
+    <div class="popup-content-contact">
+        <p class="popup-content-contact__grid-item">We love to hear your thoughts!</p>
+        <form action="#contact-step2">
+          <p></p>
+          <label for="fname">What is your name? <sup>optional</sup></label>     
+          <input type="text" id="fname" name="fname">  
+          <button class="popup-button">next</button>
+          <p class="disclaimer">1 of 3</p>
+        </form>
+    </div>
   </div>
 </div>
+<!-- Code for contact-step2 popup -->
+<div id="contact-step2" class="overlay-contact">
+  <div class="popup-contact">
+    <div class="popup-contact__header-bar">
+      <h2>Contact Us</h2>
+      <a class="popup-contact__header-bar-close-contact" href="#contact-focus">&times;</a>
+    </div>      
+    <div class="popup-content-contact">
+        <form action="#contact-step3">
+          <p></p>
+          <label for="email">On what email address can we send our response? <sup>mandatory</sup></label>     
+          <input type="email" id="email" name="email" required><br>
+          <button class="popup-button">next</button>
+          <p class="disclaimer">2 of 3</p>
+        </form>
+    </div>
+  </div>
+</div>
+<!-- Code for contact-step3 popup -->
+<div id="contact-step3" class="overlay-contact">
+  <div class="popup-contact">
+    <div class="popup-contact__header-bar">
+      <h2>Contact Us</h2>
+      <a class="popup-contact__header-bar-close-contact" href="#contact-focus">&times;</a>
+    </div>      
+    <div class="popup-content-contact">
+        <form action="#contact-confirmation">
+          <p></p>
+          <label for="textarea">Tell us what's on your mind <sup>mandatory</sup></label>
+          <textarea required></textarea>
+          <button class="popup-button">send</button>
+          <p class="disclaimer">3 of 3</p>
+        </form>
+    </div>
+  </div>
 </div>
 <!-- Code for contact confirmation popup -->
 <div id="contact-confirmation" class="overlay-contact">

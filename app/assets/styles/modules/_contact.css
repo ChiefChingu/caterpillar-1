@@ -101,6 +101,8 @@
 
       label {
         font-size: 1.2rem;
+        display: inline-block;
+        margin: 1 rem 0;
       }
 
       input:focus {
