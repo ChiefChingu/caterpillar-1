@@ -10,20 +10,20 @@
 </head>
 <body>
   <header class="site-header">
-    <div id="popup2" class="overlay-mm">
+    <div id="popup-mobile-menu" class="overlay-mm">
       <div class="popup-mm">
         <a class="close-mm" href="#">&times;</a>
         <div class="popup-content-mm">
              <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/what-is-it.html" >What is it</a></li>
-              <li><a href="/how-to-recognize.html" id="active-page">How to recognize</a></li>
+              <li><a href="/how-to-recognize.html"  id="active-page">How to recognize</a></li>
               <li><a href="/symptoms.html">Symptoms</a></li>
             </ul>
         </div>
       </div>
     </div>
-    <nav class="site-header__nav--small-screen"><a class="button-link" href="#popup2"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png"></a>
+    <nav class="site-header__nav--small-screen"><a class="button-link" href="#popup-mobile-menu"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png"></a>
     </nav>
     <div class="site-header__logo">
       <a href="/"><img src="assets/images/caterpillar-logo.png"></a>
@@ -36,7 +36,7 @@
         <li><a href="/symptoms.html">Symptoms</a></li>
       </ul>
     </nav>
-    <button class="site-header__button"><a class="button-link" href="#popup1">join</a></button>    
+    <button class="site-header__button"><a class="button-link" href="#subscribe">join</a></button>    
   </header> 
     <section class="large-hero">
       <div class="large-hero__location-bar">
@@ -88,44 +88,101 @@
           in your area!
         </h2>
           <button class="button argument-cta-button-grid-item">
-            <a class="button-link" href="#popup1">
+            <a class="button-link" href="#subscribe">
             keep me save
             </a>          
           </button>
-      </section>      
-    <!-- end wrapper -->
+      </section>
     </section>
-      <footer class="site-footer">
-        <div class="site-footer__social">
-          <!-- TODO: add FontAwesome icons -->
-          <ul>
-            <li>Connect with us:</li>
-            <li><a href="#" target="blank"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="https://twitter.com/rupsenalarm" target="blank"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="#" target="blank"><i class="fab fa-instagram-square"></i></a></li>
-            <li><a href="#" target="blank"><i class="fab fa-youtube"></i></a></li>          
-          </ul>
-        </div>
-        <nav class="site-footer__nav">
-          <ul>
-            <li>Contact us</li>
-            <li>Privacy Policy</li>
-            <li>Cookie Policy</li>
-            <li>About</li>
-            <li>Support</li>
-          </ul>
-        </nav>
-        <div class="site-footer__copyright">2020 Copyright Caterpillar Alarm</div>
-    </footer>
-    <!-- hidden code for the popup -->
-<div id="popup1" class="overlay">
-	<div class="popup">
-		<h2>Out of scope</h2>
-		<a class="close" href="#">&times;</a>
-		<div class="popup-content">
-			This functionality is out of scope for this project.
-		</div>
-	</div>
+    <footer class="site-footer">
+      <div class="site-footer__social">
+        <ul>
+          <li>Connect with us:</li>
+          <li><a href="#" target="blank"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="https://twitter.com/rupsenalarm" target="blank"><i class="fab fa-twitter-square"></i></a></li>
+          <li><a href="#" target="blank"><i class="fab fa-instagram-square"></i></a></li>
+          <li><a href="#" target="blank"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+      <nav class="site-footer__nav">
+        <ul>
+          <li id="contact-focus"><a href="#contact">Contact us</a></li>
+          <li>Privacy Policy</li>
+          <li>Cookie Policy</li>
+          <li>About</li>
+          <li>Support</li>
+        </ul>
+      </nav>
+      <div class="site-footer__copyright">2020 Copyright Caterpillar Alarm</div>
+  </footer>
+<!-- Code for contact popup -->
+<div id="contact" class="overlay-contact">
+<div class="popup-contact">
+  <div class="popup-contact__header-bar">
+    <h2>Contact Us</h2>
+    <a class="popup-contact__header-bar-close-contact" href="#contact-focus">&times;</a>
+  </div>      
+  <div class="popup-content-contact">
+      <p class="popup-content-contact__grid-item">We love to hear your thoughts! Please leave your questions, remarks or concerns below.</p>
+      <form action="#contact-confirmation">
+        <label for="fname">What is your name? <sup>optional</sup></label>     
+        <input type="text" id="fname" name="fname">  
+        <label for="email">On what email address can we send our response? <sup>mandatory</sup></label>     
+        <input type="email" id="email" name="email" required><br>
+        <label for="textarea">Tell us what's on your mind <sup>mandatory</sup></label>
+        <textarea required></textarea>
+        <button class="popup-button">Send</button>
+        <p class="disclaimer">Your email address is safe with us!</p>
+      </form>
+  </div>
+</div>
+</div>
+<!-- Code for contact confirmation popup -->
+<div id="contact-confirmation" class="overlay-contact">
+<div class="popup-contact">
+  <div class="popup-contact__header-bar">
+    <h2>Thank you</h2>
+    <a class="popup-contact__header-bar-close-contact" href="#">&times;</a>
+  </div>      
+  <div class="popup-content-contact">
+      <p class="popup-content-contact__thank-you">Thank you for your message! <br>We will respond within 24 hours.</p>      
+  </div>
+</div>
+</div>
+<!-- Code for subscribe popup -->
+<div id="subscribe" class="overlay-subscribe">
+<div class="popup-subscribe">
+  <div class="popup-subscribe__header-bar">
+    <h2>Stay safe!</h2>
+    <a class="popup-subscribe__header-bar-close-subscribe" href="#subscribe-focus">&times;</a>
+  </div>      
+  <div class="popup-content-subscribe">
+      <div class="popup-content-subscribe__grid-item">
+        <p>Thank you for your interest! After sign up you can set up your alerts: locations, frequency, etc.</p>
+        <p>But, first things first.</p>
+      </div>
+      <form action="#subscribe-confirmation">
+        <label for="fname">What is your name? <sup>optional</sup></label>     
+        <input type="text" id="fname" name="fname">  
+        <label for="email">What is your email?<sup>mandatory</sup></label>     
+        <input type="email" id="email" name="email" required><br>
+        <button class="popup-button">Join</button>
+        <p class="disclaimer">Your email address is safe with us!</p>
+      </form>
+  </div>
+</div>
+</div>
+<!-- Code for subscribe confirmation popup -->
+<div id="subscribe-confirmation" class="overlay-subscribe">
+<div class="popup-subscribe">
+  <div class="popup-subscribe__header-bar">
+    <h2>Thank you for joining</h2>
+    <a class="popup-subscribe__header-bar-close-subscribe" href="#">&times;</a>
+  </div>      
+  <div class="popup-content-subscribe">
+      <p class="popup-content-subscribe__thank-you">You are almost there. Please check your inbox and confirm your account.<br><sub>(check your spam if necessary)</sub></p>      
+  </div>
+</div>
 </div>
   </body>
 </html>

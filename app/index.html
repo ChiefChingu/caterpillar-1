@@ -34,10 +34,9 @@
         <li><a href="/what-is-it.html" >What is it</a></li>
         <li><a href="/how-to-recognize.html">How to recognize</a></li>
         <li><a href="/symptoms.html">Symptoms</a></li>
-        <li><a href="/hamburger.html">Hamburger</a></li>
       </ul>
     </nav>
-    <button class="site-header__button"><a class="button-link" href="#popup1">join</a></button> 
+    <button class="site-header__button"><a class="button-link" href="#subscribe">join</a></button> 
   </header> 
   <main>
     <section class="large-hero">
@@ -64,7 +63,7 @@
         <div class="argument-pain__cta">Never miss alerts in your neighborhood!
         </div>
         <button class="button argument-pain__responsive">
-          <a class="button-link" href="#popup1">
+          <a class="button-link" href="#subscribe">
           keep me save
           </a>
         </button>
@@ -112,7 +111,7 @@
           in your area!
         </h2>
           <button class="button argument-cta-button-grid-item">
-            <a class="button-link" href="#popup1">
+            <a class="button-link" href="#subscribe">
             keep me save
             </a>          
           </button>
@@ -170,8 +169,42 @@
       <a class="popup-contact__header-bar-close-contact" href="#">&times;</a>
     </div>      
     <div class="popup-content-contact">
-        <p class="popup-content-contact__thank-you">Thank you for your message! <br>We will respond within 24 hours.</p>
-        
+        <p class="popup-content-contact__thank-you">Thank you for your message! <br>We will respond within 24 hours.</p>      
+    </div>
+  </div>
+</div>
+<!-- Code for subscribe popup -->
+<div id="subscribe" class="overlay-subscribe">
+  <div class="popup-subscribe">
+    <div class="popup-subscribe__header-bar">
+      <h2>Stay safe!</h2>
+      <a class="popup-subscribe__header-bar-close-subscribe" href="#subscribe-focus">&times;</a>
+    </div>      
+    <div class="popup-content-subscribe">
+        <div class="popup-content-subscribe__grid-item">
+          <p>Thank you for your interest! After sign up you can set up your alerts: locations, frequency, etc.</p>
+          <p>But, first things first.</p>
+        </div>
+        <form action="#subscribe-confirmation">
+          <label for="fname">What is your name? <sup>optional</sup></label>     
+          <input type="text" id="fname" name="fname">  
+          <label for="email">What is your email?<sup>mandatory</sup></label>     
+          <input type="email" id="email" name="email" required><br>
+          <button class="popup-button">Join</button>
+          <p class="disclaimer">Your email address is safe with us!</p>
+        </form>
+    </div>
+  </div>
+</div>
+<!-- Code for subscribe confirmation popup -->
+<div id="subscribe-confirmation" class="overlay-subscribe">
+  <div class="popup-subscribe">
+    <div class="popup-subscribe__header-bar">
+      <h2>Thank you for joining</h2>
+      <a class="popup-subscribe__header-bar-close-subscribe" href="#">&times;</a>
+    </div>      
+    <div class="popup-content-subscribe">
+        <p class="popup-content-subscribe__thank-you">You are almost there. Please check your inbox and confirm your account.<br><sub>(check your spam if necessary)</sub></p>      
     </div>
   </div>
 </div>
