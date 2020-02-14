@@ -73,6 +73,11 @@
           grid-column: 2;
         }
 
+        &__thank-you {
+          grid-column: 2;
+          justify-self: center;
+        }
+
       p {
         padding: 0;
 

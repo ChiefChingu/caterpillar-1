@@ -1,10 +1,12 @@
 html {
   scroll-behavior: smooth;
+  
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: #292f33;
+ 
   }
 
 ul {

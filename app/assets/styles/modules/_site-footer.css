@@ -16,6 +16,7 @@
 
     a {
         color: #e3e3e3;
+        text-decoration: none;
     }
 
     a:hover {
@@ -31,6 +32,7 @@
     li {
         display: inline;
         padding: 0 10px;
+        
       }
 
     &__copyright {
