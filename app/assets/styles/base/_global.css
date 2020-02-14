@@ -89,3 +89,8 @@ p {
   font-weight: 900;
   
 }
+
+sup {
+  vertical-align: 0.1rem;
+  font-size: 0.7rem;;
+}

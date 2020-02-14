@@ -52,3 +52,17 @@
     }
 }
 }
+
+.action-bar {
+    background-color: $mainGreen;
+    width: 100%;
+    height: 50px;
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: absolute;
+    top: 10px;
+
+   
+
+}

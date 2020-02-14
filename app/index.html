@@ -10,7 +10,7 @@
 </head>
 <body>
   <header class="site-header">
-    <div id="popup2" class="overlay-mm">
+    <div id="popup-mobile-menu" class="overlay-mm">
       <div class="popup-mm">
         <a class="close-mm" href="#">&times;</a>
         <div class="popup-content-mm">
@@ -23,7 +23,7 @@
         </div>
       </div>
     </div>
-    <nav class="site-header__nav--small-screen"><a class="button-link" href="#popup2"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png"></a>
+    <nav class="site-header__nav--small-screen"><a class="button-link" href="#popup-mobile-menu"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png"></a>
     </nav>
     <div class="site-header__logo">
       <a href="/"><img src="assets/images/caterpillar-logo.png"></a>
@@ -54,6 +54,7 @@
           <source media="(max-width: 1500px)" srcset="assets/images/hero-image-w1500.png">
           <source media="(max-width: 1800px)" srcset="assets/images/hero-image-w1800.png">
           <img class="large-hero__image" src="assets/images/hero-image-desktop.png" alt="map">
+          
         </picture>
     </section>
     <section class="wrapper">
@@ -79,6 +80,7 @@
       </section>
       <section class="argument-how">
         <div class="argument-how--grid-item argument-how--grid-item-swap-1">
+          
           <p><span class="textOrange">Add an alert</span> by tapping on the map or using the + button. You can add infected trees and healthy trees.</p>       
           <p>If you alerted the community services you can also specify this in your map entry.</p>
           <p>If you see an alert, but do not see the infection, you can flag that alert as possibly incorrect. If multiple people do this, the alert will be removed.
@@ -129,7 +131,7 @@
         </div>
         <nav class="site-footer__nav">
           <ul>
-            <li>Contact us</li>
+            <li id="contact-focus"><a href="#contact">Contact us</a></li>
             <li>Privacy Policy</li>
             <li>Cookie Policy</li>
             <li>About</li>
@@ -138,13 +140,39 @@
         </nav>
         <div class="site-footer__copyright">2020 Copyright Caterpillar Alarm</div>
     </footer>
-    <!-- hidden code for the popup -->
-<div id="popup1" class="overlay">
-	<div class="popup">
-		<h2>Out of scope</h2>
-		<a class="close" href="#">&times;</a>
-		<div class="popup-content">
-			This functionality is out of scope for this project.
+<!-- Code for contact popup -->
+<div id="contact" class="overlay-contact">
+  <div class="popup-contact">
+    <div class="popup-contact__header-bar">
+      <h2>Contact Us</h2>
+      <a class="popup-contact__header-bar-close-contact" href="#contact-focus">&times;</a>
+    </div>  
+    <div class="wrapper">   
+      <div class="popup-content-contact">
+        <p class="popup-content-contact__grid-item">We love to hear your thoughts! Please leave your questions, remarks or concerns below.</p>
+        <form action="#contact-confirmation">
+          <label for="fname">What is your name? <sup>optional</sup></label>     
+          <input type="text" id="fname" name="fname">  
+          <label for="email">On what email address can we send our response? <sup>mandatory</sup></label>     
+          <input type="email" id="email" name="email" required><br>
+          <label for="textarea">Tell us what's on your mind <sup>mandatory</sup></label>
+          <textarea required></textarea>
+          <button class="popup-button">Send</button>
+          <p class="disclaimer">Your email address is safe with us!</p>
+        </form>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Code for contact confirmation popup -->
+<div id="contact-confirmation" class="overlay-contact">
+	<div class="popup-contact">
+		<h2 class="">Contact Us</h2>
+		<a class="close-contact" href="#">&times;</a>
+		<div class="popup-content-contact">
+			Thank you!
 		</div>
 	</div>
 </div>

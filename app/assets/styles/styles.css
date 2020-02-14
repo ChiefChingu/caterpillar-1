@@ -6,7 +6,6 @@
 @import "modules/_wrapper";
 @import "modules/_site-footer";
 @import "modules/_site-header";
-@import "modules/_modal";
 @import "modules/_social-icons";
 @import "modules/_page-section";
 @import "modules/_argument-pain";
@@ -14,5 +13,6 @@
 @import "modules/_argument-how";
 @import "modules/_argument-testimonials";
 @import "modules/_argument-cta";
-@import "modules/_pop-up";
+@import "modules/_contact";
 @import "modules/_mobile-menu";
+@import "modules/_floating-button";
