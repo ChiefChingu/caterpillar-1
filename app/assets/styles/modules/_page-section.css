@@ -4,19 +4,23 @@
     font-weight: 300;
     padding-bottom: 0px;
     margin: 0;
-
+    
     @mixin atMedium {
         padding: 15px 0;
     }
 
     @mixin atLarge {
         padding-left: 0;
-        
     }
+}
 
-
-   }
-
+.page-section ul {
+    font-size: 1.3rem;
+    line-height: 1.4;
+    font-weight: 300;
+    padding: 0 0 0 35px;
+    list-style-type: square;
+}
 
 @mixin atLarge {
     .page-section {
