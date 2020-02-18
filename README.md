@@ -45,33 +45,18 @@ For all pages:
 - Information about what the oak processionary caterpillar is: page 'What is it?'.
 - Information about what the symptoms of an infection are: page 'Symptoms'.
 
-
-#### Feature 3 - Subscribe to alerts (static and hard coded)
-User subscribes to future alerts by clicking on the join button at the top of the page (mobile view) or the CTA at the bottom of the page (desktop).
-
-Please note: the interactivity of this feature is out of scope for this project.
-
-#### Feature 4 - Know how to recognize infected trees
-User navigates to the section ‘How to recognize infected trees’. Either via the quick links in the content or via the menu at the top of the page.
-
-#### Feature 5 - Know what to do when you have an allergic reaction.
-User navigates to the section ‘What are the symptoms’. Either via the quick links in the content or via the menu at the top of the page.
-
 ### Features left to implement
 
-#### Feature 1 - Look up infected trees (static and hard coded)
+#### Look up infected trees at a user defined location
 User enters a zipcode/streetname in the location bar. The map will update and shows all infected trees in the vicinity.
 
-Please note: the interactivity of this feature is out of scope for this project.
+#### Add an alert
+User adds an alert to the map that will be visible for everyone.
 
-#### Feature 2 - Add an alert (static and hard coded)
-User adds an alert by clicking on the + button. A new window opens and user can specify the alert.
+#### User profile
+User can configure a whole range of settings about alerts. Think about what kind of notifications (infections, healthy trees, local authorities), what areas, etc.
 
-Please note: the interactivity of this feature is out of scope for this project.
-1. Enter a zip code of location x, so that I see if that location is safe to go to.
-2. Add an alert about location y, so that I warn other people that location y is not safe to go to.
-
-To make Feature 1, 2 and 3 fully functional, the following will be implemented over the next projects.
+To make these features fully functional, the following will be implemented over the next projects.
 
 * Integration with Google Maps.
 * Connection with databases.
@@ -81,6 +66,20 @@ To make Feature 1, 2 and 3 fully functional, the following will be implemented o
 In addition, a connection to local government services is considered. They receive the alerts in their area and can decide to respond. The (lack of) progress of their response is visible in the alerts.
 
 ## Technologies Used
+For this project only HTML and CSS were used. Knowing that certain things were easier to do with JS (looking at you, mobile menu!), I still wanted to only use CSS, since this is the first milestone project. I also decided not to use a framework like Bootstrap, because I wanted to really understand CSS grid.
+
+The regular libraries were used for fonts and icons:
+- Google Fonts.
+- Font Awesome.
+
+To make the whole process of writing code easier, I used npm and webpack with the following packages:
+- normalize.css
+- postcss-import,
+- postcss-mixins,
+- postcss-simple-vars,
+- postcss-nested,
+- postcss-hexrgba,
+- autoprefixer.
 
 
 ## Testing
