@@ -23,22 +23,28 @@ As a user I want to:
 
 ## Features
 ### Existing features
-From top to bottom:
+For all pages:
 #### Header
-- Brand logo
-- Navigation
-- Call to action (on mobile only)
+- Navigation: hamburger menu on mobile, normal horizontal navigation on larger screens.
+- Contact: within the navigation, a popup displaying a contact form.
+- Brand logo: clickable logo leading to home page.
+- Call to action (on mobile only): fast lane for mobiel users, so they can join directly and set up alerts.
+ 
+#### Hero
+- Alerts notification: explanation to user that this release only includes a fixed location in Amsterdam.
+- Map with infected trees around a fixed location in Amsterdam: allows user to see the infections (if any) around a specific location.
 
-##### Hero
-- Alerts notification
-- Map with infected trees around a fixed location in Amsterdam
+#### Call to action
+- Call to action button: stimulates the user to take action now and subscribe to alerts.
 
-##### Call to action
-- Call to action button
+#### Footer
+- Social icons: allows the user to check the social channels.
+- Secundary navigation: shows privacy policy, cookie policy and about us.
 
-##### Footer
-- Social icons
-- Secundary navigation
+#### In addition the detail pages contain:
+- Information about what the oak processionary caterpillar is: page 'What is it?'.
+- Information about what the symptoms of an infection are: page 'Symptoms'.
+
 
 #### Feature 3 - Subscribe to alerts (static and hard coded)
 User subscribes to future alerts by clicking on the join button at the top of the page (mobile view) or the CTA at the bottom of the page (desktop).
