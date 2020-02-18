@@ -17,13 +17,13 @@ This milestone 1 project is **the inception of Caterpillar.com**, a place where 
 ### User stories
 As a user I want to:
 
-| Objective        | Action         | Result  | Remarks
-| --------------- |---------------| -------------| --------
-|Know that location x is safe to go to.|Enter zipcode of location x.|A map with location x showing all alerts in the vicinity.|Out of scope for this project. An image of a map with infections is included.
-|Let other people know that location Y is not safe to go to.|Add an alert about location Y.|Whenever location Y is queried, the alert is displayed.|Out of scope for this project. An image of a map with infections is included.
-|Stay informed about future infections on location Z.|Subscribe to alerts around location Z.|Receive a notification whenever there is an update around location Z.|Out of scope for this project. CTAs are included without functionality.
-|Know how to recognize infected trees.|Go to the section ‘How to recognize infected trees’.|The section ‘How to recognize infected trees’ is displayed.
-|Know what to do when you have an allergic reaction.|Go to the section ‘What are the symptoms’.|The section ‘What are the symptoms’ is displayed.
+|# | Objective        | Action         | Result  | Remarks
+|------| --------------- |---------------| -------------| --------
+|1|Know that location x is safe to go to.|Enter zipcode of location x.|A map with location x showing all alerts in the vicinity.|Out of scope for this project. An image of a map with infections is included.
+|2|Let other people know that location Y is not safe to go to.|Add an alert about location Y.|Whenever location Y is queried, the alert is displayed.|Out of scope for this project. An image of a map with infections is included.
+|3|Stay informed about future infections on location Z.|Subscribe to alerts around location Z.|Receive a notification whenever there is an update around location Z.|Out of scope for this project. CTAs are included without functionality.
+|4|Know how to recognize infected trees.|Go to the section ‘How to recognize infected trees’.|The section ‘How to recognize infected trees’ is displayed.
+|5|Know what to do when you have an allergic reaction.|Go to the section ‘What are the symptoms’.|The section ‘What are the symptoms’ is displayed.
 
 ## Features
 ### Existing features
