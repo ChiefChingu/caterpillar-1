@@ -17,25 +17,28 @@ This milestone 1 project is **the inception of Caterpillar.com**, a place where 
 ### User stories
 As a user I want to:
 
-|# | Objective        | Action         | Result  | Remarks
-|------| --------------- |---------------| -------------| --------
-|1|Know that location x is safe to go to.|Enter zipcode of location x.|A map with location x showing all alerts in the vicinity.|Out of scope for this project. An image of a map with infections is included.
-|2|Let other people know that location Y is not safe to go to.|Add an alert about location Y.|Whenever location Y is queried, the alert is displayed.|Out of scope for this project. An image of a map with infections is included.
-|3|Stay informed about future infections on location Z.|Subscribe to alerts around location Z.|Receive a notification whenever there is an update around location Z.|Out of scope for this project. CTAs are included without functionality.
-|4|Know how to recognize infected trees.|Go to the section ‘How to recognize infected trees’.|The section ‘How to recognize infected trees’ is displayed.
-|5|Know what to do when you have an allergic reaction.|Go to the section ‘What are the symptoms’.|The section ‘What are the symptoms’ is displayed.
+1. Subscribe to alerts, so that I stay informed about future infections.
+2. Read information about the processionary, so that I understand what it is.
+3. Read information about the symptoms, so that I know how to recognize allergic reactions.
 
 ## Features
 ### Existing features
-#### Feature 1 - Look up infected trees (static and hard coded)
-User enters a zipcode/streetname in the location bar. The map will update and shows all infected trees in the vicinity.
+From top to bottom:
+#### Header
+- Brand logo
+- Navigation
+- Call to action (on mobile only)
 
-Please note: the interactivity of this feature is out of scope for this project.
+##### Hero
+- Alerts notification
+- Map with infected trees around a fixed location in Amsterdam
 
-#### Feature 2 - Add an alert (static and hard coded)
-User adds an alert by clicking on the + button. A new window opens and user can specify the alert.
+##### Call to action
+- Call to action button
 
-Please note: the interactivity of this feature is out of scope for this project.
+##### Footer
+- Social icons
+- Secundary navigation
 
 #### Feature 3 - Subscribe to alerts (static and hard coded)
 User subscribes to future alerts by clicking on the join button at the top of the page (mobile view) or the CTA at the bottom of the page (desktop).
@@ -49,6 +52,19 @@ User navigates to the section ‘How to recognize infected trees’. Either via 
 User navigates to the section ‘What are the symptoms’. Either via the quick links in the content or via the menu at the top of the page.
 
 ### Features left to implement
+
+#### Feature 1 - Look up infected trees (static and hard coded)
+User enters a zipcode/streetname in the location bar. The map will update and shows all infected trees in the vicinity.
+
+Please note: the interactivity of this feature is out of scope for this project.
+
+#### Feature 2 - Add an alert (static and hard coded)
+User adds an alert by clicking on the + button. A new window opens and user can specify the alert.
+
+Please note: the interactivity of this feature is out of scope for this project.
+1. Enter a zip code of location x, so that I see if that location is safe to go to.
+2. Add an alert about location y, so that I warn other people that location y is not safe to go to.
+
 To make Feature 1, 2 and 3 fully functional, the following will be implemented over the next projects.
 
 * Integration with Google Maps.
@@ -62,7 +78,13 @@ In addition, a connection to local government services is considered. They recei
 
 
 ## Testing
-
+|# | Objective        | Action         | Result  | Remarks
+|------| --------------- |---------------| -------------| --------
+|1|Know that location x is safe to go to.|Enter zipcode of location x.|A map with location x showing all alerts in the vicinity.|Out of scope for this project. An image of a map with infections is included.
+|2|Let other people know that location Y is not safe to go to.|Add an alert about location Y.|Whenever location Y is queried, the alert is displayed.|Out of scope for this project. An image of a map with infections is included.
+|3|Stay informed about future infections on location Z.|Subscribe to alerts around location Z.|Receive a notification whenever there is an update around location Z.|Out of scope for this project. CTAs are included without functionality.
+|4|Know how what the processionary is.|Go to the section ‘What is it?’.|The section ‘What is it?’ is displayed.
+|5|Know how to recognize an allergic reaction.|Go to the section ‘Symptoms’.|The section ‘Symptoms’ is displayed.
 
 ## Deployment
 
