@@ -1,7 +1,7 @@
 # Testing
 Each user story is tested thoroughly. All steps are taken in the main browsers at 3 different viewports: mobile, tablet and desktop. Desktop includes small laptops and larger widescreens (up to 2540px).
 
-Back to the [README](https://github.com/ChiefChingu/caterpillar-1/blob/master/README.md)
+Back to the [README](https://github.com/ChiefChingu/caterpillar-1/blob/master/README.md).
 
 ## User stories
 ### User story 1
