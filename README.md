@@ -88,7 +88,7 @@ This is the setup that I learned in a course https://www.udemy.com/course/git-a-
 |# | Objective        | Action         | Result  | Test passed for
 |------| --------------- |---------------| -------------| --------
 |1|Stay informed about future infections on location X.|Subscribe to alerts around location X.|Subscribe form is completed and submitted|Chrome mobile, tablet and desktop.
-Firefox mobile, tablet and desktop
+|||||Firefox mobile, tablet and desktop.
 |2|Know what the processionary is.|Go to the section ‘What is it?’.|The section ‘What is it?’ is displayed.
 |3|Know how to recognize an allergic reaction.|Go to the section ‘Symptoms’.|The section ‘Symptoms’ is displayed.
 |4|Ask a question.|Go to the contact form.|Contact form is completed and submitted.
