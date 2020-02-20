@@ -85,7 +85,7 @@ This is the setup that I learned in a course https://www.udemy.com/course/git-a-
 
 ## Testing
 
-|# | Objective        | Action         | Result  | Remarks
+|# | Objective        | Action         | Result  | Test passed for
 |------| --------------- |---------------| -------------| --------
 |1|Stay informed about future infections on location X.|Subscribe to alerts around location X.|Receive a notification whenever there is an update around location X.|User interface is tested. Backend process is not in scope.
 |2|Know what the processionary is.|Go to the section ‘What is it?’.|The section ‘What is it?’ is displayed.
