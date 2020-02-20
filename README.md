@@ -81,7 +81,7 @@ To make the whole process of writing code easier, I used npm and webpack with th
 - postcss-hexrgba,
 - autoprefixer.
 
-This is the setup that I learned in a course https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/
+This is the setup that I learned in this course: [Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/)
 
 ## Testing
 Test passed means that the tests passed for the three main browsers Chrome, Firefox and Edge. Each browser was tested on three viewports: mobile, tablet and desktop.
@@ -91,8 +91,8 @@ Test passed means that the tests passed for the three main browsers Chrome, Fire
 
 (??safari??)
 
-|# | Objective        | Action         | Result  | Test passed|Remarks
-|------| --------------- |---------------| -------------| --------|--------
+|# | Objective| Action| Result  | Test passed|Remarks
+|------| ------ |------| -------------| :----:|--------
 |1|Stay informed about future infections on location X.|Subscribe to alerts around location X.|Subscribe form is completed and submitted|Ok.|
 |2|Know what the processionary is.|Go to the section ‘What is it?’.|The section ‘What is it?’ is displayed.|Ok.|
 |3|Know how to recognize an allergic reaction.|Go to the section ‘Symptoms’.|The section ‘Symptoms’ is displayed.|Ok.|
