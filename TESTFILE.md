@@ -40,26 +40,60 @@ As a user I want to ask a question, so that my particular issue or concern can b
 ## Features
 ### Header
 - Navigation:
-  * Try to navigate to all the pages.
+  - Try to navigate to all the pages.
   - On smaller screens: try open and close the hamburger menu.
 - Contact: see testing user story 4.
-- Brand logo: try to click 
-- Call to action (on mobile only): fast lane for mobiel users, so they can join directly and set up alerts.
+- Brand logo: 
+  - Try to click on the logo on every page.
+  - Verify that you go to the home page very time you click on the logo.
+- Call to action (on mobile only): see testing user story 1.
  
 ### Hero
-- Alerts notification: explanation to user that this release only includes a fixed location in Amsterdam.
-- Map with infected trees around a fixed location in Amsterdam: allows user to see the infections (if any) around a specific location.
+- Alerts notification: 
+  - Try to click on the alerts notification.
+  - Verify that the notification popup renders correctly.
+- Map: verify that the map renders correctly.
 
 ### Call to action
-- Call to action button: stimulates the user to take action now and subscribe to alerts.
+- Call to action button: see testing user story 1.
 
 ### Footer
-- Social icons: allows the user to check the social channels.
-- Secundary navigation: shows privacy policy, cookie policy and about us.
+- Social icons: 
+  - Try to click the social icons.
+  - Verify that a new tab/window opens.
+  - Verify that the right soccial page loads.
+- Secundary navigation:
+  - Try to navigate to the cookie policy, privacy policy and the about section.
+  - Verify that each page loads correctly.
 
 ### In addition the detail pages contain:
-- Information about what the oak processionary caterpillar is: page 'What is it?'.
-- Information about what the symptoms of an infection are: page 'Symptoms'.
+- Information about what the oak processionary caterpillar is: page 'What is it?'. See testing user story 3.
+- Information about what the symptoms of an infection are: page 'Symptoms'. See testing user story 4.
+
+## Issues
+### No javascript, only CSS
+As explained in the README I wanted to use CSS and HTML only for this project. 
+
+Found a pure css mobile menu. However, this caused all content to be pushed down when that mobile menu was toggled. That is pretty ugly, so I threw it away. I found another way to have the mobile menu: I used the popup and made it a mobile menu.
+
+Contact form in popup: on mobile: the keyboard overlaps the input field for the message. No scroll possible.
+
+Tried to make active class work without JS/php. Finally made it work with ids.
+
+### Forms lacks a POST method
+For the forms: first I used the Code Inistitute post URL, but I wanted to add a confirmation/thank you message. That is not possible since the Code Institute page is out of my control.
+
+Therefore I changed the action attribute to go to a new popup message and left out the method="post" on purpose.
+
+### Image sizing
+Made all images responsive: both file size and dimensions. This was a pretty large task, because I have no experience with resizing and editing images. Finally made it work with the picture element.
+
+### Edge shows all popups at once for 1 milisecond
+Due to the fact that I want to use CSS only, I had to code a pretty 'verbose' part for the popup window. This code is hidden until the user activates the popup. In Edge there is a slight issue here: when the page loads it displays all the popup windows stacked on top of each other for just a milisecond.
+
+Solution: disabled the transition effect of the popups.
+
+
 
 ## Table summary
 ### User stories
