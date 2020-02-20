@@ -1,16 +1,17 @@
 # Testing
 Each user story is tested thoroughly. All steps are taken in the main browsers at 3 different viewports: mobile, tablet and desktop. Desktop includes small laptops and larger widescreens (up to 2540px).
 
-## User story 1
+## User stories
+### User story 1
 As a user I want to subscribe to alerts, so that I stay informed about future infections.
 
-1. View the call to action 'keep me save' or 'join'.
+1. Try to locate the call to action 'keep me save' or 'join'.
 2. Try to click the button.
 3. Try to submit the empty form and verify that an error message about the required fields appears.
 4. Try to submit the form with an invalid email address and verify that a relevant error message appears.
 5. Try to submit the form with all inputs valid and verify that a confirmation message appears.
 
-## User story 2
+### User story 2
 As a user I want to read information about the processionary, so that I understand what it is.
 
 1. Try to navigate to the page 'What is it?'.
@@ -18,7 +19,7 @@ As a user I want to read information about the processionary, so that I understa
 3. Try to view the pictures.
 4. Try to hover your mouse over the pictures to see the img tag.
 
-## User story 3
+### User story 3
 As a user I want to read information about the symptoms, so that I know how to recognize allergic reactions.
 
 1. Try to navigate to the page 'Symptoms'.
@@ -26,7 +27,7 @@ As a user I want to read information about the symptoms, so that I know how to r
 3. Try to view the pictures.
 4. Try to hover your mouse over the pictures to see the img tag.
 
-## User story 4
+### User story 4
 As a user I want to ask a question, so that my particular issue or concern can be addressed.
 
 1. Try to find the contact form.
@@ -35,33 +36,28 @@ As a user I want to ask a question, so that my particular issue or concern can b
 4. Try to submit the form with all inputs valid and verify that a confirmation message appears.
 
 ## Features
-### Existing features
-For all pages:
-#### Header
+### Header
 - Navigation: hamburger menu on mobile, normal horizontal navigation on larger screens.
 - Contact: within the navigation, a popup displaying a contact form.
 - Brand logo: clickable logo leading to home page.
 - Call to action (on mobile only): fast lane for mobiel users, so they can join directly and set up alerts.
  
-#### Hero
+### Hero
 - Alerts notification: explanation to user that this release only includes a fixed location in Amsterdam.
 - Map with infected trees around a fixed location in Amsterdam: allows user to see the infections (if any) around a specific location.
 
-#### Call to action
+### Call to action
 - Call to action button: stimulates the user to take action now and subscribe to alerts.
 
-#### Footer
+### Footer
 - Social icons: allows the user to check the social channels.
 - Secundary navigation: shows privacy policy, cookie policy and about us.
 
-#### In addition the detail pages contain:
+### In addition the detail pages contain:
 - Information about what the oak processionary caterpillar is: page 'What is it?'.
 - Information about what the symptoms of an infection are: page 'Symptoms'.
 
-
-
-
-
+## Table summary
 ### User stories
 |# | Objective| Action| Result  | Test passed|Remarks
 |------| ------ |------| -------------| :----:|--------
