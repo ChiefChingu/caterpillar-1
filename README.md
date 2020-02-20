@@ -84,14 +84,16 @@ To make the whole process of writing code easier, I used npm and webpack with th
 This is the setup that I learned in a course https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/
 
 ## Testing
+
 |# | Objective        | Action         | Result  | Remarks
 |------| --------------- |---------------| -------------| --------
 |1|Stay informed about future infections on location X.|Subscribe to alerts around location X.|Receive a notification whenever there is an update around location X.|User interface is tested. Backend process is not in scope.
-|2|Know how what the processionary is.|Go to the section ‘What is it?’.|The section ‘What is it?’ is displayed.
+|2|Know what the processionary is.|Go to the section ‘What is it?’.|The section ‘What is it?’ is displayed.
 |3|Know how to recognize an allergic reaction.|Go to the section ‘Symptoms’.|The section ‘Symptoms’ is displayed.
 |4|Ask a question.|Go to the contact form.|Contact form is completed and submitted.
 
 ## Deployment
+
 
 ## Credits
 ### Content
