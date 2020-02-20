@@ -40,7 +40,9 @@ As a user I want to ask a question, so that my particular issue or concern can b
 ## Features
 ### Header
 - Navigation:
+
 ..* Try to navigate to all the pages.
+
 ..- On smaller screens: try open and close the hamburger menu.
 - Contact: see testing user story 4.
 - Brand logo: try to click 
