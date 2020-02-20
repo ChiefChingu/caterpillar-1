@@ -93,15 +93,15 @@ Test passed means that the tests passed for the three main browsers Chrome, Fire
 
 |# | Objective| Action| Result  | Test passed|Remarks
 |------| ------ |------| -------------| :----:|--------
-|1|Stay informed about future infections on location X.|Subscribe to alerts around location X.|Subscribe form is completed and submitted|Ok.|
-|2|Know what the processionary is.|Go to the section ‘What is it?’.|The section ‘What is it?’ is displayed.|Ok.|
-|3|Know how to recognize an allergic reaction.|Go to the section ‘Symptoms’.|The section ‘Symptoms’ is displayed.|Ok.|
-|4|Ask a question.|Go to the contact form.|Contact form is completed and submitted.|Ok.|
+|1|Stay informed about future infections on location X.|Subscribe to alerts around location X.|Subscribe form is completed and submitted|OK|
+|2|Know what the processionary is.|Go to the section ‘What is it?’.|The section ‘What is it?’ is displayed.|OK|
+|3|Know how to recognize an allergic reaction.|Go to the section ‘Symptoms’.|The section ‘Symptoms’ is displayed.|OK|
+|4|Ask a question.|Go to the contact form.|Contact form is completed and submitted.|OK|
 
 ### Features
-|Area | Feature | Test for Chrome mobile, tablet and desktop.|Firefox mobile, tablet and desktop.|Edge mobile, tablet and desktop.
-|------| --------------- |---------------|---------|--------
-|Header|Brand logo|Ok|Ok|Ok
+|Area | Feature | Test passed|Remarks
+|------| -------|:---------:|--------
+|Header|Brand logo|OK|
 
 
 ## Deployment
