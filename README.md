@@ -105,6 +105,14 @@ Test passed means that the tests passed for the three main browsers Chrome, Fire
 ||Contact form|OK|
 ||Brand logo|OK|
 ||Call to action|OK|On mobile and tablet only
+|Hero|Alert notification|OK|
+||Alert map|OK|
+|Call to action|button|OK|
+|Footer|social icons|OK|
+||secundary navigation|OK|
+|Page 'What is it?'|Content|OK|
+|Page 'Symptoms?'|Content|OK|
+
 
 ## Deployment
 
