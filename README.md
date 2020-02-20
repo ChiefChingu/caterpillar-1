@@ -101,8 +101,10 @@ Test passed means that the tests passed for the three main browsers Chrome, Fire
 ### Features
 |Area | Feature | Test passed|Remarks
 |------| -------|:---------:|--------
-|Header|Brand logo|OK|
-
+|Header|Navigation|OK|
+||Contact form|OK|
+||Brand logo|OK|
+||Call to action|OK|On mobile and tablet only
 
 ## Deployment
 
