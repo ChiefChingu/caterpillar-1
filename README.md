@@ -101,11 +101,9 @@ This is the setup that I learned in a course https://www.udemy.com/course/git-a-
 |||||Edge mobile, tablet and desktop.
 
 ### Features
-|Area | Feature | Test passed for
+|Area | Feature | Test passed for|||
 |------| --------------- |---------------
-|Header|Brand logo|Chrome mobile, tablet and desktop.
-|||Firefox mobile, tablet and desktop.
-|||Edge mobile, tablet and desktop.
+|Header|Brand logo|Chrome mobile, tablet and desktop.|Firefox mobile, tablet and desktop.|Edge mobile, tablet and desktop.
 
 
 ## Deployment
