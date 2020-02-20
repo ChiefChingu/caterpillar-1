@@ -84,7 +84,7 @@ To make the whole process of writing code easier, I used npm and webpack with th
 This is the setup that I learned in a course https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/
 
 ## Testing
-
+### User stories
 |# | Objective        | Action         | Result  | Test passed for
 |------| --------------- |---------------| -------------| --------
 |1|Stay informed about future infections on location X.|Subscribe to alerts around location X.|Subscribe form is completed and submitted|Chrome mobile, tablet and desktop.
@@ -99,6 +99,14 @@ This is the setup that I learned in a course https://www.udemy.com/course/git-a-
 |4|Ask a question.|Go to the contact form.|Contact form is completed and submitted.|Chrome mobile, tablet and desktop.
 |||||Firefox mobile, tablet and desktop.
 |||||Edge mobile, tablet and desktop.
+
+### Features
+|Area | Feature | Test passed for
+|------| --------------- |---------------
+|Header|Brand logo|Chrome mobile, tablet and desktop.
+|||Firefox mobile, tablet and desktop.
+|||Edge mobile, tablet and desktop.
+
 
 ## Deployment
 
