@@ -19,7 +19,7 @@
     background: white; 
     width: 80%;
     position: relative;
-    transition: all 1s ease-in-out;
+    /* transition: all 1s ease-in-out; */
     border-radius: 5px;
 
     @mixin atSmallMedium {

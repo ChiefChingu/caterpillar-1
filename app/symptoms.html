@@ -23,10 +23,10 @@
         </div>
       </div>
     </div>
-    <nav class="site-header__nav--small-screen"><a class="button-link" href="#popup2"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png"></a>
+    <nav class="site-header__nav--small-screen"><a class="button-link" href="#popup2"><img class="site-header__hamburger" src="assets/images/hamburger-icon.png" alt="Hamburger menu icon"></a>
     </nav>
     <div class="site-header__logo">
-      <a href="/"><img src="assets/images/caterpillar-logo.png"></a>
+      <a href="/"><img src="assets/images/caterpillar-logo.png" alt="Logo of Caterpillar Alarm"></a>
     </div>
     <nav class="site-header__nav site-header__nav--large-screen">
       <ul>
@@ -38,6 +38,7 @@
     </nav>
     <button class="site-header__button"><a class="button-link" href="#subscribe">join</a></button>
   </header>
+  <main>
     <section class="large-hero">
       <div class="large-hero__location-bar">
         <div class="large-hero__location-bar-text">Find <strong>alerts</strong> near you: <a href="#notice">start here</a></div>
@@ -51,7 +52,7 @@
           <p>The greatest risk period is May to July, but hairs can be present on old nests, and could be blown or touched at any time of year.</p>
         </div>
         <p>The moths are widely distributed in central and southern Europe, and are occasionally found as far north as Sweden. In the southern countries of Europe the populations are controlled by natural predators, but these predators are not present in northern Europe. Their range is expanding northward, possibly or partly as a result of global warming. The moth now has an established population in the UK. The eggs arrived on oak imported to the Richmond and Ealing areas of London in 2006 and the range of the species in the UK has been steadily expanding despite efforts to eradicate it.</p>
-        <img class="image-wrap" src="assets/images/rash_on_elbow.jpg">
+        <img class="image-wrap" src="assets/images/rash_on_elbow.jpg" alt="Rash on elbow">
       </section>
       <section class="page-section">
         <div class="page-section--grid-item">
@@ -72,7 +73,10 @@
         </div>
       </section>
       <section class="page-section">
-        <img class="image-wrap" src="assets/images/dog-allergic.jfif">
+        <picture>
+          <source media="(max-width: 600px)" srcset="assets/images/dog-allergic-mobile.jfif">
+          <img class="image-wrap" src="assets/images/dog-allergic.jfif" alt="Dog with rash on nose">
+        </picture>
         <div class="page-section--grid-item">
           <p>Curious pets, such as dogs and cats, and browsing and grazing livestock such as cattle, horses, sheep, goats, deer and pigs, are the most susceptible to contact with caterpillar hairs.</p>
           <p>Cats and dogs can get hairs on their paws, which they then lick to try to relieve the irritation, transferring the irritating hairs to their mouths. They can also come into mouth and nose contact by sniffing, licking and picking up caterpillars or nests.</p>
@@ -92,25 +96,24 @@
       </section>   
     <!-- end wrapper -->
     </section>
-    <footer class="site-footer">
-      <div class="site-footer__social">
-        <ul>
-          <li>Connect with us:</li>
-          <li><a href="#" target="blank"><i class="fab fa-facebook-square"></i></a></li>
-          <li><a href="https://twitter.com/rupsenalarm" target="blank"><i class="fab fa-twitter-square"></i></a></li>
-          <li><a href="#" target="blank"><i class="fab fa-instagram-square"></i></a></li>
-          <li><a href="#" target="blank"><i class="fab fa-youtube"></i></a></li>
-        </ul>
-      </div>
-      <nav class="site-footer__nav">
-        <ul>
-          <li>Privacy Policy</li>
-          <li>Cookie Policy</li>
-          <li>About</li>
-          <li>Support</li>
-        </ul>
-      </nav>
-      <div class="site-footer__copyright">2020 Copyright Caterpillar Alarm</div>
+  </main>
+  <footer class="site-footer">
+    <div class="site-footer__social">
+      <ul>
+        <li>Connect with us:</li>
+        <li><a href="https://www.facebook.com/Rupsenalarmnl-108869634037350/" target="blank"><i class="fab fa-facebook-square"></i></a></li>
+        <li><a href="https://twitter.com/rupsenalarm" target="blank"><i class="fab fa-twitter-square"></i></a></li>
+        <li><a href="https://www.instagram.com/rupsenalarm/" target="blank"><i class="fab fa-instagram-square"></i></a></li>
+      </ul>
+    </div>
+    <nav class="site-footer__nav">
+      <ul>
+        <li><a href="https://www.freeprivacypolicy.com/privacy/view/f37b7c795b7f3870d4a521f1de195432" target="blank">Privacy Policy</a></li>
+        <li><a href="/cookie-policy.html" target="blank">Cookie Policy</a></li>
+        <li><a href="/about.html">About</a></li>
+      </ul>
+    </nav>
+    <div class="site-footer__copyright">2020 Copyright Caterpillar Alarm</div>
   </footer>
 <!-- Code for popups -->
 
