@@ -61,7 +61,7 @@ As a user I want to ask a question, so that my particular issue or concern can b
 - Social icons: 
   - Try to click the social icons.
   - Verify that a new tab/window opens.
-  - Verify that the right soccial page loads.
+  - Verify that the right social page loads.
 - Secundary navigation:
   - Try to navigate to the cookie policy, privacy policy and the about section.
   - Verify that each page loads correctly.

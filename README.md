@@ -117,5 +117,19 @@ Test passed means that the tests passed for the three main browsers Chrome, Fire
 
 ## Credits
 ### Content
+Homepage: own copy.
+'What is it?': [Wikipedia](https://en.wikipedia.org/wiki/Oak_processionary)
+Symptoms: [Forest Research](https://www.forestresearch.gov.uk/tools-and-resources/pest-and-disease-resources/oak-processionary-moth-thaumetopoea-processionea/opm-manual-2-public-and-animal-health-advice/)
+Cookie policy: [Cookie Policy Template Generator](https://www.cookiepolicygenerator.com/)
+Privacy policy: [Free Privacy Policy](https://www.freeprivacypolicy.com/)
+
 ### Media
+Media of the page 'Symptoms' comes from [Forest Research](https://www.forestresearch.gov.uk/tools-and-resources/pest-and-disease-resources/oak-processionary-moth-thaumetopoea-processionea/opm-manual-2-public-and-animal-health-advice/).
+All other media is from:
+[Het Streeknieuws](https://hetstreeknieuws.nl/pas-op-verdriedubbeling-aantal-eikenprocessierupsen/).
+
+
 ### Acknowledgements
+- The [Pure CSS popup menu](https://codepen.io/imprakash/pen/GgNMXO) inspired me to create a mobile hamburger menu.
+- The Udemy course of [Bradd Schiff](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/) made the coding flow very fun and efficient.
+- My mentor at Code Institute, Juan Monetti, made it possible to finish this milestone I project in less than two weeks.
