@@ -1,6 +1,8 @@
 # Testing
 Each user story is tested thoroughly. All steps are taken in the main browsers at 3 different viewports: mobile, tablet and desktop. Desktop includes small laptops and larger widescreens (up to 2540px).
 
+Back to the [README](https://github.com/Code-Institute-Solutions/readme-template/blob/master/README.md)
+
 ## User stories
 ### User story 1
 As a user I want to subscribe to alerts, so that I stay informed about future infections.
@@ -37,9 +39,11 @@ As a user I want to ask a question, so that my particular issue or concern can b
 
 ## Features
 ### Header
-- Navigation: hamburger menu on mobile, normal horizontal navigation on larger screens.
-- Contact: within the navigation, a popup displaying a contact form.
-- Brand logo: clickable logo leading to home page.
+- Navigation:
+..- Try to navigate to all the pages.
+..- On smaller screens: try open and close the hamburger menu.
+- Contact: see testing user story 4.
+- Brand logo: try to click 
 - Call to action (on mobile only): fast lane for mobiel users, so they can join directly and set up alerts.
  
 ### Hero
