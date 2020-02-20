@@ -84,21 +84,19 @@ To make the whole process of writing code easier, I used npm and webpack with th
 This is the setup that I learned in a course https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/
 
 ## Testing
+Test passed means that the tests passed for the three main browsers Chrome, Firefox and Edge. Each browser was tested on three viewports: mobile, tablet and desktop.
+
 ### User stories
-|# | Objective        | Action         | Result  | Test passed for
-|------| --------------- |---------------| -------------| --------
-|1|Stay informed about future infections on location X.|Subscribe to alerts around location X.|Subscribe form is completed and submitted|Chrome mobile, tablet and desktop.
-|||||Firefox mobile, tablet and desktop.
-|||||Edge mobile, tablet and desktop.
-|2|Know what the processionary is.|Go to the section ‘What is it?’.|The section ‘What is it?’ is displayed.|Chrome mobile, tablet and desktop.
-|||||Firefox mobile, tablet and desktop.
-|||||Edge mobile, tablet and desktop.
-|3|Know how to recognize an allergic reaction.|Go to the section ‘Symptoms’.|The section ‘Symptoms’ is displayed.|Chrome mobile, tablet and desktop.
-|||||Firefox mobile, tablet and desktop.
-|||||Edge mobile, tablet and desktop.
-|4|Ask a question.|Go to the contact form.|Contact form is completed and submitted.|Chrome mobile, tablet and desktop.
-|||||Firefox mobile, tablet and desktop.
-|||||Edge mobile, tablet and desktop.
+
+
+(??safari??)
+
+|# | Objective        | Action         | Result  | Test passed|Remarks
+|------| --------------- |---------------| -------------| --------|--------
+|1|Stay informed about future infections on location X.|Subscribe to alerts around location X.|Subscribe form is completed and submitted|Ok.|
+|2|Know what the processionary is.|Go to the section ‘What is it?’.|The section ‘What is it?’ is displayed.|Ok.|
+|3|Know how to recognize an allergic reaction.|Go to the section ‘Symptoms’.|The section ‘Symptoms’ is displayed.|Ok.|
+|4|Ask a question.|Go to the contact form.|Contact form is completed and submitted.|Ok.|
 
 ### Features
 |Area | Feature | Test for Chrome mobile, tablet and desktop.|Firefox mobile, tablet and desktop.|Edge mobile, tablet and desktop.
