@@ -84,13 +84,11 @@ To make the whole process of writing code easier, I used npm and webpack with th
 This is the setup that I learned in this course: [Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/)
 
 ## Testing
-Test passed means that the tests passed for the three main browsers Chrome, Firefox and Edge. Each browser was tested on three viewports: mobile, tablet and desktop.
+Details of the testing can be found in the [testing file](#). The summary is included here.
+
+Test passed means that the tests passed for the three main browsers Chrome, Firefox and Edge. (??safari??) Each browser was tested on three viewports: mobile, tablet and desktop.
 
 ### User stories
-
-
-(??safari??)
-
 |# | Objective| Action| Result  | Test passed|Remarks
 |------| ------ |------| -------------| :----:|--------
 |1|Stay informed about future infections on location X.|Subscribe to alerts around location X.|Subscribe form is completed and submitted|OK|
