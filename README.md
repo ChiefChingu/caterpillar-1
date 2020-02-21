@@ -13,6 +13,8 @@ What is the most likely scenario? Chances are that it will be the first scenario
 
 This milestone 1 project is **the inception of Caterpillar.com**, a place where you can help each other by adding alerts about infected trees.
 
+You can view the project here at [rupsenalarm.nl](https://rupsenalarm.nl/).
+
 ## UX
 ### User stories
 As a user I want to:
@@ -117,26 +119,36 @@ Test passed means that the tests passed for the three main browsers Chrome, Fire
 
 
 ## Deployment
+For this project I used a local environment and a production environment. I learned these from a Udemy course (see Acknowledgements).
 
+### Local
+For the local environment I used [webpack-dev-server](https://www.npmjs.com/package/webpack-dev-server).
+You need to have npm and webpack installed. Then you can download and install webpack-dev-server. After installing you need to adjust your [webpack.config.js](https://github.com/ChiefChingu/caterpillar-1/blob/master/webpack.config.js). I set the dev server to port 3000, so after running 'npm run dev' the site is loaded on http://localhost:3000/.
+
+### Production
+Caterpillar Alarm is running on the domain 'Rupsenalarm.nl'. This is the Dutch name for Caterpillar Alarm. It is hosted at Hostgator and forwarded to Netlify.
+When I want to push from local to production, I do the following on the command line:
+
+1. ctrl-c (to end npm dev)
+1. git Add -A
+2. git commit -m "description"
+3. npm run build
+4. git push origin master
+
+The moment github is updated Netlify takes over and builds the project on the live site.
 
 ## Credits
 ### Content
-Homepage: own copy.
-
-Page 'What is it?': [Wikipedia](https://en.wikipedia.org/wiki/Oak_processionary).
-
-Page Symptoms: [Forest Research](https://www.forestresearch.gov.uk/tools-and-resources/pest-and-disease-resources/oak-processionary-moth-thaumetopoea-processionea/opm-manual-2-public-and-animal-health-advice/).
-
-Cookie policy: [Cookie Policy Template Generator](https://www.cookiepolicygenerator.com/).
-
-Privacy policy: [Free Privacy Policy](https://www.freeprivacypolicy.com/).
+- Homepage: own copy.
+- Page 'What is it?': [Wikipedia](https://en.wikipedia.org/wiki/Oak_processionary).
+- Page Symptoms: [Forest Research](https://www.forestresearch.gov.uk/tools-and-resources/pest-and-disease-resources/oak-processionary-moth-thaumetopoea-processionea/opm-manual-2-public-and-animal-health-advice/).
+- Cookie policy: [Cookie Policy Template Generator](https://www.cookiepolicygenerator.com/).
+- Privacy policy: [Free Privacy Policy](https://www.freeprivacypolicy.com/).
 
 ### Media
-Media of the page 'Symptoms' comes from [Forest Research](https://www.forestresearch.gov.uk/tools-and-resources/pest-and-disease-resources/oak-processionary-moth-thaumetopoea-processionea/opm-manual-2-public-and-animal-health-advice/).
-
-All other media is from:
+- Media of the page 'Symptoms' comes from [Forest Research](https://www.forestresearch.gov.uk/tools-and-resources/pest-and-disease-resources/oak-processionary-moth-thaumetopoea-processionea/opm-manual-2-public-and-animal-health-advice/).
+- All other media is from:
 [Het Streeknieuws](https://hetstreeknieuws.nl/pas-op-verdriedubbeling-aantal-eikenprocessierupsen/).
-
 
 ### Acknowledgements
 - The [Pure CSS popup menu](https://codepen.io/imprakash/pen/GgNMXO) inspired me to create a mobile hamburger menu.
