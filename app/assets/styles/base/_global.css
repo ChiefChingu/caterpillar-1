@@ -1,13 +1,15 @@
 html {
   scroll-behavior: smooth;
-  
 }
 
 body {
   font-family: 'Roboto', sans-serif;
   color: #292f33;
- 
   }
+
+h2 {
+  padding-left: 15px;
+}
 
 ul {
   padding: 0;

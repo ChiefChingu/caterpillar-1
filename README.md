@@ -92,7 +92,7 @@ This is the setup that I learned in this course: [Mastering the Modern Workflow]
 ## Testing
 Details of the testing can be found in the [testing file](https://github.com/ChiefChingu/caterpillar-1/blob/master/TESTFILE.md). The summary is included here.
 
-Test passed means that the tests passed for the three main browsers Chrome, Firefox and Edge. (??safari??) Each browser was tested on three viewports: mobile, tablet and desktop.
+Test passed means that the tests passed for the main browsers Chrome, Firefox, Edge and Safari. Each browser was tested on three viewports: mobile, tablet and desktop.
 
 ### User stories
 |# | Objective| Action| Result  | Test passed|Remarks
