@@ -2,12 +2,18 @@
 Back to the [README](https://github.com/ChiefChingu/caterpillar-1/blob/master/README.md).
 
 ## W3C CSS Validation Service
-There were no issues, but there were warnings. I suspect that these warnings have to do with the 'normalize CSS' package I use. I tried to adjust these files (for example the warning ButtonText is deprecated: I removed the reference to ButtonText), but the warnings are still [there](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frupsenalarm.nl%2F&profile=none&usermedium=all&warning=1&vextwarning=).
+There were no errors, but there were warnings. I suspect that these warnings have to do with the 'normalize CSS' package I use. I tried to adjust these files (for example the warning ButtonText is deprecated: I removed the reference to ButtonText), but the warnings are still [there](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frupsenalarm.nl%2F&profile=none&usermedium=all&warning=1&vextwarning=).
 
 After contacting a tutor of Code Institute the advice is to include a reference to my attempts to solve these warnings.
 
 ## W3C Markup Validation Service
+There are no errors, only [warnings](https://validator.w3.org/nu/?doc=https%3A%2F%2Frupsenalarm.nl%2F):
+- Six warnings to consider using headings for my sections.
+- One warning about an unnecessary type attriubute.
 
+I chose to ignore the six warnings about heading usage, because I have very short pages at the moment. In the next iteration the page content will grow and then I will use headings as suggested.
+
+With respect to the warning about the unnecessary type attribution: I guess that this line of code is injected via the MiniCssExtractPlugin. I looked for a way to manipulate this, but could not find any.
 
 ## User stories
 Each user story is tested thoroughly. All steps are taken in the main browsers at 3 different viewports: mobile, tablet and desktop. Desktop includes small laptops and larger widescreens (up to 2540px).
