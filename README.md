@@ -71,21 +71,21 @@ In addition, a connection to local government services is considered. They recei
 For this project only HTML and CSS were used. Knowing that certain things were easier to do with JS (looking at you, mobile menu!), I still wanted to only use CSS, since this is the first milestone project. I also decided not to use a framework like Bootstrap, because I wanted to really understand CSS grid.
 
 The regular libraries were used for fonts and icons:
-- Google Fonts.
-- Font Awesome.
+- [Google Fonts](https://fonts.google.com/).
+- [Font Awesome](https://fonts.google.com/).
 
 To make the whole process of writing code easier, I used npm and webpack with the following modules and plugins:
-- normalize.css
-- postcss-import,
-- postcss-mixins,
-- postcss-simple-vars,
-- postcss-nested,
-- postcss-hexrgba,
-- autoprefixer,
-- MiniCssExtractPlugin,
-- clean-webpack-plugin,
-- html-webpack-plugin,
-- fs-extra.
+- [normalize.css](https://www.npmjs.com/package/normalize.css?activeTab=versions),
+- [postcss-import](https://www.npmjs.com/package/postcss-import),
+- [postcss-mixins](https://www.npmjs.com/package/postcss-mixins),
+- [postcss-simple-vars](https://www.npmjs.com/package/postcss-simple-vars),
+- [postcss-nested](https://www.npmjs.com/package/postcss-nested),
+- [postcss-hexrgba](https://www.npmjs.com/package/postcss-hexrgba),
+- [autoprefixer](https://www.npmjs.com/package/autoprefixer),
+- [MiniCssExtractPlugin](https://www.npmjs.com/package/mini-css-extract-plugin),
+- [clean-webpack-plugin](https://www.npmjs.com/package/clean-webpack-plugin),
+- [html-webpack-plugin](https://www.npmjs.com/package/html-webpack-plugin),
+- [fs-extra](https://www.npmjs.com/package/fs-extra).
 
 This is the setup that I learned in this course: [Mastering the Modern Workflow](https://www.udemy.com/course/git-a-web-developer-job-mastering-the-modern-workflow/)
 
@@ -130,10 +130,10 @@ Caterpillar Alarm is running on the domain 'Rupsenalarm.nl'. This is the Dutch n
 When I want to push from local to production, I do the following on the command line:
 
 1. ctrl-c (to end npm dev)
-1. git Add -A
-2. git commit -m "description"
-3. npm run build
-4. git push origin master
+1. `git Add -A`
+2. `git commit -m "description"`
+3. `npm run build`
+4. `git push origin master`
 
 The moment github is updated Netlify takes over and builds the project on the live site.
 

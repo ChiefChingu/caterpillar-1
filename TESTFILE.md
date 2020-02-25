@@ -13,7 +13,7 @@ There were no errors, only warnings.
 
 I used sections too deliberately. I changed these to divs, so the related warnings disappeared.
 
-With respect to the warning about the unnecessary type attribution: I guess that this line of code is injected via the MiniCssExtractPlugin. I looked for a way to manipulate this, but could not find any. You can find the warning [here]().
+With respect to the warning about the unnecessary type attribution: I guess that this line of code is injected via the MiniCssExtractPlugin. I looked for a way to manipulate this, but could not find any. You can find the warning [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Frupsenalarm.nl%2Fgit ).
 
 ## User stories
 Each user story is tested thoroughly. All steps are taken in the main browsers at 3 different viewports: mobile, tablet and desktop. Desktop includes small laptops and larger widescreens (up to 2540px).
@@ -21,19 +21,19 @@ Each user story is tested thoroughly. All steps are taken in the main browsers a
 ### User story 1
 As a user I want to subscribe to alerts, so that I stay informed about future infections.
 
-1. Try to locate the call to action 'keep me save' or 'join'.
-2. Try to click the button.
-3. Try to submit the empty form and verify that an error message about the required fields appears.
-4. Try to submit the form with an invalid email address and verify that a relevant error message appears.
-5. Try to submit the form with all inputs valid and verify that a confirmation message appears.
+1. Locate the call to action 'keep me save' or 'join'.
+2. Click the button.
+3. Submit the empty form and verify that an error message about the required fields appears.
+4. Submit the form with an invalid email address and verify that a relevant error message appears.
+5. Submit the form with all inputs valid and verify that a confirmation message appears.
 
 ### User story 2
 As a user I want to read information about the processionary, so that I understand what it is.
 
-1. Try to navigate to the page 'What is it?'.
-2. Try to scroll down and read the information.
-3. Try to view the pictures.
-4. Try to hover your mouse over the pictures to see the img tag.
+1. Navigate to the page 'What is it?'.
+2. Scroll down and read the information.
+3. View the pictures.
+4. Hover your mouse over the pictures to see the img tag.
 
 ### User story 3
 As a user I want to read information about the symptoms, so that I know how to recognize allergic reactions.
