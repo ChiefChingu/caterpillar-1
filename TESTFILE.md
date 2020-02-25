@@ -2,7 +2,7 @@
 Back to the [README](https://github.com/ChiefChingu/caterpillar-1/blob/master/README.md).
 
 ## W3C CSS Validation Service
-There were no errors, but there were warnings. I suspect that these warnings have to do with the 'normalize CSS' package I use. I tried to adjust these files (for example the warning ButtonText is deprecated: I removed the reference to ButtonText), but the warnings are still [there](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frupsenalarm.nl%2F&profile=none&usermedium=all&warning=1&vextwarning=).
+There were no errors, but there were warnings. I suspect that these warnings have to do with the 'normalize CSS' package I use. I tried to adjust these files (for example the warning ButtonText is deprecated: I removed the reference to ButtonText), but the warnings are still [there](https://validator.w3.org/nu/?doc=https%3A%2F%2Frupsenalarm.nl%2F).
 
 After contacting a tutor of Code Institute the advice is to include a reference to my attempts to solve these warnings.
 
