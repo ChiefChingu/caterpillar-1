@@ -137,123 +137,123 @@
     <div class="site-footer__copyright">2020 Copyright Caterpillar Alarm</div>
   </footer>
 
-<!-- Code for popups -->
-
-  <!-- Code for notice popup -->
-  <div id="notice" class="overlay-contact">
-    <div class="popup-contact">
-      <div class="popup-contact__header-bar">
-        <h2>Please note</h2>
-        <a class="popup-contact__header-bar-close-contact" href="#">&times;</a>
-      </div>      
-      <div class="popup-content-contact">
-        <p class="popup-content-contact__grid-item">This tool works only for a fixed location in Amsterdam. In next release you can specify your location in this toolbar:</p>
-      </div>
-      <img class="popup-content-contact-img" src="assets/images/toolbar-next-release.png" alt="Preview of toolbar in next release" title="Preview of toolbar in next release">
-    </div>
-  </div>
-
-  <!-- Code for contact popup -->
-  <div id="contact" class="overlay-contact">
-    <div class="popup-contact">
-      <div class="popup-contact__header-bar">
-        <h2>Contact Us</h2>
-        <a class="popup-contact__header-bar-close-contact" href="#">&times;</a>
-      </div>      
-        <div class="popup-content-contact">
-          <p class="popup-content-contact__grid-item">We love to hear your thoughts!</p>
-          <form action="#contact-step2">
-            <label for="fname">What is your name? <sup>optional</sup></label>     
-            <input type="text" id="fname" name="fname">  
-            <button class="popup-button">next</button>
-            <p class="disclaimer">1 of 3</p>
-          </form>
+    <!-- Code for popups -->
+    <div>
+      <!-- Code for notice popup -->
+      <div id="notice" class="overlay-contact">
+        <div class="popup-contact">
+          <div class="popup-contact__header-bar">
+            <h2>Please note</h2>
+            <a class="popup-contact__header-bar-close-contact" href="#">&times;</a>
+          </div>      
+          <div class="popup-content-contact">
+            <p class="popup-content-contact__grid-item">This tool works only for a fixed location in Amsterdam. In next release you can specify your location in this toolbar:</p>
+          </div>
+          <img class="popup-content-contact-img" src="assets/images/toolbar-next-release.png" alt="Preview of toolbar in next release" title="Preview of toolbar in next release">
         </div>
-    </div>
-  </div>
-  <!-- Code for contact-step2 popup -->
-  <div id="contact-step2" class="overlay-contact">
-    <div class="popup-contact">
-      <div class="popup-contact__header-bar">
-        <h2>Contact Us</h2>
-        <a class="popup-contact__header-bar-close-contact" href="#contact-focus">&times;</a>
-      </div>      
-      <div class="popup-content-contact">
-          <form action="#contact-step3">
-            <p></p>
-            <label for="email">On what email address can we send our response? <sup>mandatory</sup></label>     
-            <input type="email" id="email" name="email" required><br>
-            <button class="popup-button">next</button>
-            <p class="disclaimer">2 of 3</p>
-          </form>
       </div>
-    </div>
-  </div>
-  <!-- Code for contact-step3 popup -->
-  <div id="contact-step3" class="overlay-contact">
-    <div class="popup-contact">
-      <div class="popup-contact__header-bar">
-        <h2>Contact Us</h2>
-        <a class="popup-contact__header-bar-close-contact" href="#contact-focus">&times;</a>
-      </div>      
-      <div class="popup-content-contact">
-          <form action="#contact-confirmation">
-            <p></p>
-            <label for="textarea">Tell us what's on your mind <sup>mandatory</sup></label>
-            <textarea id="textarea" required></textarea>
-            <button class="popup-button">send</button>
-            <p class="disclaimer">3 of 3</p>
-          </form>
-      </div>
-    </div>
-  </div>
-  <!-- Code for contact confirmation popup -->
-  <div id="contact-confirmation" class="overlay-contact">
-    <div class="popup-contact">
-      <div class="popup-contact__header-bar">
-        <h2>Thank you</h2>
-        <a class="popup-contact__header-bar-close-contact" href="#">&times;</a>
-      </div>      
-      <div class="popup-content-contact">
-          <p class="popup-content-contact__thank-you">Thank you for your message! <br>We will respond within 24 hours.</p>      
-      </div>
-    </div>
-  </div>
-<!-- Code for subscribe popup -->
-<div id="subscribe" class="overlay-subscribe">
-  <div class="popup-subscribe">
-    <div class="popup-subscribe__header-bar">
-      <h2>Stay safe!</h2>
-      <a class="popup-subscribe__header-bar-close-subscribe" href="#subscribe-focus">&times;</a>
-    </div>      
-    <div class="popup-content-subscribe">
-        <div class="popup-content-subscribe__grid-item">
-          <p>Thank you for your interest! After sign up you can set up your alerts: locations, frequency, etc.</p>
-          <p>But, first things first.</p>
+      <!-- Code for contact popup -->
+      <div id="contact" class="overlay-contact">
+        <div class="popup-contact">
+          <div class="popup-contact__header-bar">
+            <h2>Contact Us</h2>
+            <a class="popup-contact__header-bar-close-contact" href="#">&times;</a>
+          </div>      
+            <div class="popup-content-contact">
+              <p class="popup-content-contact__grid-item">We love to hear your thoughts!</p>
+              <form action="#contact-step2">
+                <label for="fname">What is your name? <sup>optional</sup></label>     
+                <input type="text" id="fname" name="fname">  
+                <button class="popup-button">next</button>
+                <p class="disclaimer">1 of 3</p>
+              </form>
+            </div>
         </div>
-        <form action="#subscribe-confirmation">
-          <label for="fname">What is your name? <sup>optional</sup></label>     
-          <input type="text" id="fname-sub" name="fname">  
-          <label for="email">What is your email?<sup> mandatory</sup></label>     
-          <input type="email" id="email-sub" name="email" required><br>
-          <button class="popup-button">Join</button>
-          <p class="disclaimer">Your email address is safe with us!</p>
-        </form>
+      </div>
+      <!-- Code for contact-step2 popup -->
+      <div id="contact-step2" class="overlay-contact">
+        <div class="popup-contact">
+          <div class="popup-contact__header-bar">
+            <h2>Contact Us</h2>
+            <a class="popup-contact__header-bar-close-contact" href="#contact-focus">&times;</a>
+          </div>      
+          <div class="popup-content-contact">
+              <form action="#contact-step3">
+                <p></p>
+                <label for="email">On what email address can we send our response? <sup>mandatory</sup></label>     
+                <input type="email" id="email" name="email" required><br>
+                <button class="popup-button">next</button>
+                <p class="disclaimer">2 of 3</p>
+              </form>
+          </div>
+        </div>
+      </div>
+      <!-- Code for contact-step3 popup -->
+      <div id="contact-step3" class="overlay-contact">
+        <div class="popup-contact">
+          <div class="popup-contact__header-bar">
+            <h2>Contact Us</h2>
+            <a class="popup-contact__header-bar-close-contact" href="#contact-focus">&times;</a>
+          </div>      
+          <div class="popup-content-contact">
+              <form action="#contact-confirmation">
+                <p></p>
+                <label for="textarea">Tell us what's on your mind <sup>mandatory</sup></label>
+                <textarea id="textarea" required></textarea>
+                <button class="popup-button">send</button>
+                <p class="disclaimer">3 of 3</p>
+              </form>
+          </div>
+        </div>
+      </div>
+      <!-- Code for contact confirmation popup -->
+      <div id="contact-confirmation" class="overlay-contact">
+        <div class="popup-contact">
+          <div class="popup-contact__header-bar">
+            <h2>Thank you</h2>
+            <a class="popup-contact__header-bar-close-contact" href="#">&times;</a>
+          </div>      
+          <div class="popup-content-contact">
+              <p class="popup-content-contact__thank-you">Thank you for your message! <br>We will respond within 24 hours.</p>      
+          </div>
+        </div>
+      </div>
+      <!-- Code for subscribe popup -->
+      <div id="subscribe" class="overlay-subscribe">
+        <div class="popup-subscribe">
+          <div class="popup-subscribe__header-bar">
+            <h2>Stay safe!</h2>
+            <a class="popup-subscribe__header-bar-close-subscribe" href="#subscribe-focus">&times;</a>
+          </div>      
+          <div class="popup-content-subscribe">
+              <div class="popup-content-subscribe__grid-item">
+                <p>Thank you for your interest! After sign up you can set up your alerts: locations, frequency, etc.</p>
+                <p>But, first things first.</p>
+              </div>
+              <form action="#subscribe-confirmation">
+                <label for="fname">What is your name? <sup>optional</sup></label>     
+                <input type="text" id="fname-sub" name="fname">  
+                <label for="email">What is your email?<sup> mandatory</sup></label>     
+                <input type="email" id="email-sub" name="email" required><br>
+                <button class="popup-button">Join</button>
+                <p class="disclaimer">Your email address is safe with us!</p>
+              </form>
+          </div>
+        </div>
+      </div>
+      <!-- Code for subscribe confirmation popup -->
+      <div id="subscribe-confirmation" class="overlay-subscribe">
+        <div class="popup-subscribe">
+          <div class="popup-subscribe__header-bar">
+            <h2>Thank you for joining</h2>
+            <a class="popup-subscribe__header-bar-close-subscribe" href="#">&times;</a>
+          </div>      
+          <div class="popup-content-subscribe">
+              <p class="popup-content-subscribe__thank-you">You are almost there. Please check your inbox and confirm your account.<br><sub>(check your spam if necessary)</sub></p>      
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
-<!-- Code for subscribe confirmation popup -->
-<div id="subscribe-confirmation" class="overlay-subscribe">
-  <div class="popup-subscribe">
-    <div class="popup-subscribe__header-bar">
-      <h2>Thank you for joining</h2>
-      <a class="popup-subscribe__header-bar-close-subscribe" href="#">&times;</a>
-    </div>      
-    <div class="popup-content-subscribe">
-        <p class="popup-content-subscribe__thank-you">You are almost there. Please check your inbox and confirm your account.<br><sub>(check your spam if necessary)</sub></p>      
-    </div>
-  </div>
-</div>
   </body>
 </html>
 

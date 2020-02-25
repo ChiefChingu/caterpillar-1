@@ -1,52 +1,52 @@
-  .overlay-mm {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: rgba(0, 0, 0, 0);
-    transition: opacity 500ms;
-    visibility: hidden;
-    opacity: 0;
-  }
-  .overlay-mm:target {
-    visibility: visible;
-    opacity: 1;
-  }
-  .popup-mm {
-    margin: 0px auto;
-    padding: 20px;
-    background: $mainGreen; 
-    width: 100%;
-    position: relative;
-    transition: all 1s ease-in-out;
-  }
+.overlay-mm {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
 
-  .popup-mm .close-mm {
-    position: absolute;
-    top: 0;
-    right: 30px;
-    transition: all 200ms;
-    font-size: 30px;
-    
-    text-decoration: none;
-    color: white;
+.overlay-mm:target {
+  visibility: visible;
+  opacity: 1;
+}
+
+.popup-mm {
+  margin: 0px auto;
+  padding: 20px;
+  background: $mainGreen; 
+  width: 100%;
+  position: relative;
+  transition: all 1s ease-in-out;
+}
+
+.popup-mm .close-mm {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  
+  text-decoration: none;
+  color: white;
+}
+
+.popup-content-mm {
+  line-height: 1.6;
+
+  a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.5rem;
   }
-
-  .popup-content-mm {
-
-    line-height: 1.6;
-
-    a {
-        color: white;
-        text-decoration: none;
-        font-size: 1.5rem;
-    }
-    
-    ul {
-        list-style: none;
-        margin: 0;
-        padding-left: 25px;
-    }
-
+  
+  ul {
+      list-style: none;
+      margin: 0;
+      padding-left: 25px;
   }
+}
