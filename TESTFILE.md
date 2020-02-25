@@ -33,38 +33,38 @@ As a user I want to read information about the processionary, so that I understa
 1. Navigate to the page 'What is it?'.
 2. Scroll down and read the information.
 3. View the pictures.
-4. Hover your mouse over the pictures to see the img tag.
+4. Hover pictures and see the img title tag.
 
 ### User story 3
 As a user I want to read information about the symptoms, so that I know how to recognize allergic reactions.
 
-1. Try to navigate to the page 'Symptoms'.
-2. Try to scroll down and read the information.
-3. Try to view the pictures.
-4. Try to hover your mouse over the pictures to see the img tag.
+1. Navigate to the page 'Symptoms'.
+2. Scroll down and read the information.
+3. View the pictures.
+4. Hover pictures and see the img title tag.
 
 ### User story 4
 As a user I want to ask a question, so that my particular issue or concern can be addressed.
 
-1. Try to find the contact form.
-2. Try to submit the empty form and verify that an error message about the required fields appears.
-3. Try to submit the form with an invalid email address and verify that a relevant error message appears.
-4. Try to submit the form with all inputs valid and verify that a confirmation message appears.
+1. Find the contact form.
+2. Submit the empty form and verify that an error message about the required fields appears.
+3. Submit the form with an invalid email address and verify that a relevant error message appears.
+4. Submit the form with all inputs valid and verify that a confirmation message appears.
 
 ## Features
 ### Header
 - Navigation:
-  - Try to navigate to all the pages.
-  - On smaller screens: try to open and close the hamburger menu.
+  - Navigate to all the pages.
+  - On smaller screens: open and close the hamburger menu.
 - Contact: see testing user story 4.
 - Brand logo: 
-  - Try to click on the logo on every page.
+  - Click on the logo on every page.
   - Verify that you go to the home page very time you click on the logo.
 - Call to action (on mobile only): see testing user story 1.
  
 ### Hero
 - Alerts notification: 
-  - Try to click on the alerts notification.
+  - Click on the alerts notification.
   - Verify that the notification popup renders correctly.
 - Map: verify that the map renders correctly.
 
@@ -73,11 +73,11 @@ As a user I want to ask a question, so that my particular issue or concern can b
 
 ### Footer
 - Social icons: 
-  - Try to click the social icons.
+  - Click the social icons.
   - Verify that a new tab/window opens.
   - Verify that the right social page loads.
 - Secundary navigation:
-  - Try to navigate to the cookie policy, privacy policy and the about section.
+  - Navigate to the cookie policy, privacy policy and the about section.
   - Verify that each page loads correctly.
 
 ### In addition the detail pages contain:
