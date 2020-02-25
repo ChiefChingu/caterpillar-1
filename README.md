@@ -16,6 +16,8 @@ This milestone 1 project is **the inception of Caterpillar.com**, a place where 
 You can view the project here at [rupsenalarm.nl](https://rupsenalarm.nl/).
 
 ## UX
+This project was designed with the mobile user in mind. The [wireframes](https://github.com/ChiefChingu/caterpillar-1/blob/master/Milestone1-oak%20processionary-mockups.pdf) reflect this: mobile first and desktop second. Also, the code is written from the mobile perspective: the mobile viewport is the baseline. Media queries are used to add tablet and desktop viewports.
+
 ### User stories
 As a user I want to:
 
