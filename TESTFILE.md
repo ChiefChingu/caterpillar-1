@@ -7,13 +7,13 @@ There were no errors, but there were warnings. I suspect that these warnings hav
 After contacting a tutor of Code Institute the advice is to include a reference to my attempts to solve these warnings.
 
 ## W3C Markup Validation Service
-There are no errors, only [warnings](https://validator.w3.org/nu/?doc=https%3A%2F%2Frupsenalarm.nl%2F):
+There were no errors, only warnings.
 - Six warnings to consider using headings for my sections.
 - One warning about an unnecessary type attriubute.
 
-I chose to ignore the six warnings about heading usage, because I have very short pages at the moment. In the next iteration the page content will grow and then I will use headings as suggested.
+I used sections too deliberately. I changed these to divs, so the related warnings disappeared.
 
-With respect to the warning about the unnecessary type attribution: I guess that this line of code is injected via the MiniCssExtractPlugin. I looked for a way to manipulate this, but could not find any.
+With respect to the warning about the unnecessary type attribution: I guess that this line of code is injected via the MiniCssExtractPlugin. I looked for a way to manipulate this, but could not find any. You can find the warning [here]().
 
 ## User stories
 Each user story is tested thoroughly. All steps are taken in the main browsers at 3 different viewports: mobile, tablet and desktop. Desktop includes small laptops and larger widescreens (up to 2540px).
@@ -86,7 +86,7 @@ As a user I want to ask a question, so that my particular issue or concern can b
 
 ## Issues
 ### No javascript, only CSS
-As explained in the README I wanted to use CSS and HTML only for this project. This lead to some challenges with the mobile hamburger menu. I found a pure css mobile menu on CodePen. However, this caused all content to be pushed down when that mobile menu was toggled. This is of course not acceptable, so I discarded this solution. I found a better way in the form of a [pure CSS popup window] (https://codepen.io/imprakash/pen/GgNMXO). I modified this to be a full width nav bar on mobile. Also, I used this as a contact and subscription box.
+As explained in the README I wanted to use CSS and HTML only for this project. This lead to some challenges with the mobile hamburger menu. I found a pure css mobile menu on CodePen. However, this caused all content to be pushed down when that mobile menu was toggled. This is of course not acceptable, so I discarded this solution. I found a better way in the form of a [pure CSS popup window](https://codepen.io/imprakash/pen/GgNMXO). I modified this to be a full width nav bar on mobile. Also, I used this as a contact and subscription box.
 
 This lead to another issue: on mobile the on-screen keyboard overlaps the input field for the message of the contact form. I tried adding a scroll functionality, but did not manage to get the bar scrolling. In the end I split the contact form in steps, which makes it possible to have lower height boxes that do not overlap with on-screen keyboards.
 
